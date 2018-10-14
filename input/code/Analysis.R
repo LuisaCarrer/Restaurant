@@ -49,7 +49,7 @@ colnames(df_tourismlong)[colnames(df_tourismlong)=="Country.Name"] <- "country"
 df_tot <- full_join(data_ranking,df_tourismlong, by = c("country", "year"))
 
 
-
+# Clean Data
 new_data <-  df_tot %>% group_by(country, year) %>%mutate(numeric_restaurant= as.numeric(restaurant))
 new_data <- new_data%>% mutate_if(is.numeric, replace_na, 0)
 new_data <- new_data%>% mutate(g = ifelse(numeric_restaurant > 0, 1, 0 ))
@@ -89,26 +89,4 @@ for (i in 2003:2016) {
 png(filename=paste("output/graphs/graph_2.png"), res=100, width = 1400, height = 600)
 ggplot(final_data, aes(x = num_restaurant, y = arrivals)) + geom_jitter() + facet_wrap(~ year)
 dev.off()
-
-
-#sp <- ggplot(sum_data, aes(mean_rest, mean_arr)) + 
-#jpeg(paste('../output/graphs/scatterplot', '.jpeg', sep=""), width = 1000, height = 1000, units = "px", pointsize = 12,
-#     quality = 75)
-#grid.arrange(direct, strategy ,nrow=2,
-#             top = textGrob('Effect of Initial Expectations', vjust = 1, gp = gpar(fontface = "bold", cex = 1.5)),
-#             bottom = textGrob( "Blue = accept, Black = reject.", gp = gpar(fontface = 3, fontsize = 12),  hjust = 1,  x = 1))
-#dev.off()
-
-
-#sp <- ggplot(new_data, aes(num_restaurant, arrivals)) + geom_jitter() + geom_smooth(model = lm)
-#sp + facet_grid(year ~ .)
-
-#jpeg(paste('../output/graphs/scatterplots', '.jpeg', sep=""), width = 1000, height = 1000, units = "px", pointsize = 12,
-#     quality = 75)
-#grid.arrange(direct, strategy ,nrow=2,
-#             top = textGrob('Effect of Initial Expectations', vjust = 1, gp = gpar(fontface = "bold", cex = 1.5)),
-#             bottom = textGrob( "Blue = accept, Black = reject.", gp = gpar(fontface = 3, fontsize = 12),  hjust = 1,  x = 1))
-#dev.off()
-
-
 

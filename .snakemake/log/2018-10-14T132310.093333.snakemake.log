@@ -1,0 +1,19 @@
+Building DAG of jobs...
+Using shell: /bin/bash
+Provided cores: 1
+Rules claiming more threads will be scaled down.
+Job counts:
+	count	jobs
+	1	scrape_ranking
+	1
+
+[Sun Oct 14 13:23:10 2018]
+rule scrape_ranking:
+    input: input/code/scrape_ranking.py
+    output: input/raw_data/restaurant_ranking.csv
+    jobid: 0
+
+[Sun Oct 14 13:23:20 2018]
+Finished job 0.
+1 of 1 steps (100%) done
+Complete log: /Users/luisa/Desktop/Carrer_Project/.snakemake/log/2018-10-14T132310.093333.snakemake.log

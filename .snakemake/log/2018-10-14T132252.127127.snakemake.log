@@ -1,0 +1,3 @@
+WorkflowError in line 8 of /Users/luisa/Desktop/Carrer_Project/Snakefile:
+Config file config.yaml not found.
+  File "/Users/luisa/Desktop/Carrer_Project/Snakefile", line 8, in <module>

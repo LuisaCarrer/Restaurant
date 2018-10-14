@@ -1,0 +1,851 @@
+,restaurant,city,country,cleaned_restaurant,ranking,year,matches
+0,The French Laundry,USA,United States,THE FRENCH LAUNDRY,1,2003,['THE FRENCH LAUNDRY']
+1,El Bulli,Spain,Spain,EL BULLI,2,2003,['EL BULLI']
+2,"Le Louis XV, Alain Ducasse",Monaco,Monaco,"LE LOUIS XV, ALAIN DUCASSE",3,2003,"['LE LOUIS XV, ALAIN DUCASSE']"
+3,Jean Georges,USA,United States,JEAN GEORGES,4,2003,['JEAN GEORGES']
+4,Restaurant Gordon Ramsay,UK,United Kingdom,RESTAURANT GORDON RAMSAY,5,2003,"['RESTAURANT GORDON RAMSAY', 'RESTAURANT GORDON RAMSEY']"
+5,L'Arpege,France,France,L'ARPEGE,6,2003,"[""L'ARPEGE""]"
+6,Comme Chez Soi,Belgium,Belgium,COMME CHEZ SOI,7,2003,['COMME CHEZ SOI']
+7,Rockpool,Australia,Australia,ROCKPOOL,8,2003,['ROCKPOOL']
+8,L'Ambroisie,France,France,L'AMBROISIE,9,2003,"[""L'AMBROISIE"", ""L'AMBROISIS""]"
+9,Gramercy Tavern,USA,United States,GRAMERCY TAVERN,10,2003,"['GRAMERCY TAVERN', 'GRAMERY TAVERN', 'GRANERCY TAVERN']"
+10,Michel Bras,France,France,MICHEL BRAS,11,2003,['MICHEL BRAS']
+11,Chez Panisse,USA,United States,CHEZ PANISSE,12,2003,"['CHEZ PANISSE', 'CHES PANISSE']"
+12,Pierre Gagnaire,France,France,PIERRE GAGNAIRE,13,2003,"['PIERRE GAGNAIRE', 'PIEREE GAGNAIRE']"
+13,The Merchant House,UK,United Kingdom,THE MERCHANT HOUSE,14,2003,['THE MERCHANT HOUSE']
+14,Bocca,Estonia,Estonia,BOCCA,15,2003,['BOCCA']
+15,Sukiyabashi Jiro,Japan,Japan,SUKIYABASHI JIRO,16,2003,['SUKIYABASHI JIRO']
+16,Felix,Hong Kong,Hong Kong,FELIX,17,2003,['FELIX']
+17,L'Auberge De L'lll,France,France,L'AUBERGE DE L'LLL,18,2003,"[""L'AUBERGE DE L'LLL""]"
+18,Gidleigh Park,UK,United Kingdom,GIDLEIGH PARK,19,2003,['GIDLEIGH PARK']
+19,Bukhara,India,India,BUKHARA,20,2003,"['BUKHARA', 'BUKHRA']"
+20,Paul Bocuse,France,France,PAUL BOCUSE,21,2003,['PAUL BOCUSE']
+21,De Karmeliet,Belgium,Belgium,DE KARMELIET,22,2003,['DE KARMELIET']
+22,Al-Mahara,United Arab Emirates,United Arab Emirates,AL MAHARA,23,2003,['AL MAHARA']
+23,Vincent Guerithault on Camelback,USA,United States,VINCENT GUERITHAULT ON CAMELBACK,24,2003,['VINCENT GUERITHAULT ON CAMELBACK']
+24,Thornton's,Ireland,Ireland,THORNTON'S,25,2003,"[""THORNTON'S""]"
+25,Nobu,UK,United Kingdom,NOBU,26,2003,['NOBU']
+26,Operakällaren,Sweden,Sweden,OPERAKALLAREN,27,2003,['OPERAKALLAREN']
+27,Eigensinn Farm,Canada,Canada,EIGENSINN FARM,28,2003,['EIGENSINN FARM']
+28,Le Manoir Aux Quat' Saisons,UK,United Kingdom,LE MANOIR AUX QUAT' SAISONS,29,2003,"[""LE MANOIR AUX QUAT' SAISONS"", ""LE MANOIR AUX QUAT'SAISONS""]"
+29,Guy Savoy,France,France,GUY SAVOY,30,2003,['GUY SAVOY']
+30,The Ivy,UK,United Kingdom,THE IVY,31,2003,['THE IVY']
+31,The Three Chimneys,UK,United Kingdom,THE THREE CHIMNEYS,32,2003,['THE THREE CHIMNEYS']
+32,Petrus,UK,United Kingdom,PETRUS,33,2003,['PETRUS']
+33,Daniel,USA,United States,DANIEL,34,2003,['DANIEL']
+34,Dal Pescatore,Italy,Italy,DAL PESCATORE,35,2003,"['DAL PESCATORE', 'DAL PASCATORE']"
+35,Bagatelle,Norway,Norway,BAGATELLE,36,2003,['BAGATELLE']
+36,Tetsuya's,Australia,Australia,TETSUYA'S,37,2003,"[""TETSUYA'S"", ""TETSYA'S""]"
+37,Quattro Passi,Italy,Italy,QUATTRO PASSI,38,2003,['QUATTRO PASSI']
+38,Charlie Trotter's,USA,United States,CHARLIE TROTTER'S,39,2003,"[""CHARLIE TROTTER'S"", 'CHARLIE TROTTERS', 'CHARLIE TROTTER']"
+39,Arzak,Spain,Spain,ARZAK,40,2003,['ARZAK']
+40,Flower Drum,Australia,Australia,FLOWER DRUM,41,2003,['FLOWER DRUM']
+41,The Cliff,Barbados,Barbados,THE CLIFF,42,2003,['THE CLIFF']
+42,The Square,UK,United Kingdom,THE SQUARE,43,2003,['THE SQUARE']
+43,Enoteca Pinchiorri,Italy,Italy,ENOTECA PINCHIORRI,44,2003,['ENOTECA PINCHIORRI']
+44,1884,Argentina,Argentina,1884,45,2003,['1884']
+45,Checchino dal 1887,Italy,Italy,CHECCHINO DAL 1887,46,2003,['CHECCHINO DAL 1887']
+46,River Cafe,UK,United Kingdom,RIVER CAFE,47,2003,['RIVER CAFE']
+47,New York Grill,Japan,Japan,NEW YORK GRILL,48,2003,['NEW YORK GRILL']
+48,St John,UK,United Kingdom,ST JOHN,49,2003,['ST JOHN']
+49,Carnivore,Kenya,Kenya,CARNIVORE,50,2003,['CARNIVORE']
+0,The French Laundry,USA,United States,THE FRENCH LAUNDRY,1,2004,['THE FRENCH LAUNDRY']
+1,The Fat Duck,UK,United Kingdom,THE FAT DUCK,2,2004,['THE FAT DUCK']
+2,El Bulli,Spain,Spain,EL BULLI,3,2004,['EL BULLI']
+3,L'Atelier De Joel Roubchon,France,France,L'ATELIER DE JOEL ROUBCHON,4,2004,"[""L'ATELIER DE JOEL ROUBCHON"", ""L'ATELIER DE JOEL ROUBUCHON"", ""L'ATELIER DE JOEL ROBUCHON""]"
+4,Pierre Gagnaire,France,France,PIERRE GAGNAIRE,5,2004,"['PIERRE GAGNAIRE', 'PIEREE GAGNAIRE']"
+5,Guy Savoy,France,France,GUY SAVOY,6,2004,['GUY SAVOY']
+6,Nobu,UK,United Kingdom,NOBU,7,2004,['NOBU']
+7,Restaurant Gordon Ramsey,UK,United Kingdom,RESTAURANT GORDON RAMSEY,8,2004,"['RESTAURANT GORDON RAMSEY', 'RESTAURANT GORDON RAMSAY']"
+8,Bras,France,France,BRAS,9,2004,['BRAS']
+9,Le Louis XV,France,France,LE LOUIS XV,10,2004,['LE LOUIS XV']
+10,Granercy Tavern,USA,United States,GRANERCY TAVERN,11,2004,"['GRANERCY TAVERN', 'GRAMERCY TAVERN', 'GRAMERY TAVERN']"
+11,Daniel,USA,United States,DANIEL,12,2004,['DANIEL']
+12,Tetsuya's,Australia,Australia,TETSUYA'S,13,2004,"[""TETSUYA'S"", ""TETSYA'S""]"
+13,Hakkasan,UK,United Kingdom,HAKKASAN,14,2004,['HAKKASAN']
+14,The Waterside Inn,UK,United Kingdom,THE WATERSIDE INN,15,2004,['THE WATERSIDE INN']
+15,St John,UK,United Kingdom,ST JOHN,16,2004,['ST JOHN']
+16,L'Ami Louis,France,France,L'AMI LOUIS,17,2004,"[""L'AMI LOUIS""]"
+17,Jean Georges,USA,United States,JEAN GEORGES,18,2004,['JEAN GEORGES']
+18,Le Gavroche,UK,United Kingdom,LE GAVROCHE,19,2004,"['LE GAVROCHE', 'LA GAVROCHE']"
+19,Flower Drum,Australia,Australia,FLOWER DRUM,20,2004,['FLOWER DRUM']
+20,The Merchant House,UK,United Kingdom,THE MERCHANT HOUSE,21,2004,['THE MERCHANT HOUSE']
+21,Arzak,Spain,Spain,ARZAK,22,2004,['ARZAK']
+22,Dal Pescatore,Italy,Italy,DAL PESCATORE,23,2004,"['DAL PESCATORE', 'DAL PASCATORE']"
+23,The Ivy,UK,United Kingdom,THE IVY,24,2004,['THE IVY']
+24,L'Arpege,France,France,L'ARPEGE,25,2004,"[""L'ARPEGE""]"
+25,Can Fabes,Spain,Spain,CAN FABES,26,2004,['CAN FABES']
+26,Schwarzwaldstube,Germany,Germany,SCHWARZWALDSTUBE,27,2004,"['SCHWARZWALDSTUBE', 'DIE SCHWARZWALDSTUBE', 'DIE SCHWARZALDSTUBE']"
+27,The Cliff,Barbados,Barbados,THE CLIFF,28,2004,['THE CLIFF']
+28,Rockpool,Australia,Australia,ROCKPOOL,29,2004,['ROCKPOOL']
+29,Le Manoir Aux Quat'saisons,UK,United Kingdom,LE MANOIR AUX QUAT'SAISONS,30,2004,"[""LE MANOIR AUX QUAT'SAISONS"", ""LE MANOIR AUX QUAT' SAISONS""]"
+30,Al Mahara,UAE,United Arab Emirates,AL MAHARA,31,2004,['AL MAHARA']
+31,Charlie Trotters,USA,United States,CHARLIE TROTTERS,32,2004,"['CHARLIE TROTTERS', ""CHARLIE TROTTER'S"", 'CHARLIE TROTTER']"
+32,Le Jardin De Sens,France,France,LE JARDIN DE SENS,33,2004,['LE JARDIN DE SENS']
+33,The Square,UK,United Kingdom,THE SQUARE,34,2004,['THE SQUARE']
+34,Spago,USA,United States,SPAGO,35,2004,['SPAGO']
+35,Bukhra,India,India,BUKHRA,36,2004,"['BUKHRA', 'BUKHARA']"
+36,Chez Panisse,USA,United States,CHEZ PANISSE,37,2004,"['CHEZ PANISSE', 'CHES PANISSE']"
+37,Le Meurice,France,France,LE MEURICE,38,2004,['LE MEURICE']
+38,Troisgros,France,France,TROISGROS,39,2004,['TROISGROS']
+39,Balthazar,USA,United States,BALTHAZAR,40,2004,['BALTHAZAR']
+40,River Cafe,UK,United Kingdom,RIVER CAFE,41,2004,['RIVER CAFE']
+41,La Tupina,France,France,LA TUPINA,42,2004,['LA TUPINA']
+42,L'Auberge De L'lll,France,France,L'AUBERGE DE L'LLL,43,2004,"[""L'AUBERGE DE L'LLL""]"
+43,Craft,USA,United States,CRAFT,44,2004,['CRAFT']
+44,La Tour D'Argent,France,France,LA TOUR D'ARGENT,45,2004,"[""LA TOUR D'ARGENT""]"
+45,Le Maison De Marc Veyrat,France,France,LE MAISON DE MARC VEYRAT,46,2004,['LE MAISON DE MARC VEYRAT']
+46,Felix,Hong Kong,Hong Kong,FELIX,47,2004,['FELIX']
+47,De Karmeliet,Belgium,Belgium,DE KARMELIET,48,2004,['DE KARMELIET']
+48,The Wolseley,UK,United Kingdom,THE WOLSELEY,49,2004,['THE WOLSELEY']
+49,Gambero Rosso,Italy,Italy,GAMBERO ROSSO,50,2004,"['GAMBERO ROSSO', 'GAMBERO ROSO']"
+0,The Fat Duck,UK,United Kingdom,THE FAT DUCK,1,2005,['THE FAT DUCK']
+1,El Bulli,Spain,Spain,EL BULLI,2,2005,['EL BULLI']
+2,The French Laundry,USA,United States,THE FRENCH LAUNDRY,3,2005,['THE FRENCH LAUNDRY']
+3,Tetsuya's,Australia,Australia,TETSUYA'S,4,2005,"[""TETSUYA'S"", ""TETSYA'S""]"
+4,Restaurant Gordon Ramsey,UK,United Kingdom,RESTAURANT GORDON RAMSEY,5,2005,"['RESTAURANT GORDON RAMSEY', 'RESTAURANT GORDON RAMSAY']"
+5,Pierre Gagnaire,France,France,PIERRE GAGNAIRE,6,2005,"['PIERRE GAGNAIRE', 'PIEREE GAGNAIRE']"
+6,Per Se,USA,United States,PER SE,7,2005,['PER SE']
+7,Tom Aikens,UK,United Kingdom,TOM AIKENS,8,2005,['TOM AIKENS']
+8,Jean Georges,USA,United States,JEAN GEORGES,9,2005,['JEAN GEORGES']
+9,St John,UK,United Kingdom,ST JOHN,10,2005,['ST JOHN']
+10,Bras,France,France,BRAS,11,2005,['BRAS']
+11,Le Louis XV,France,France,LE LOUIS XV,12,2005,['LE LOUIS XV']
+12,Chez Panisse,USA,United States,CHEZ PANISSE,13,2005,"['CHEZ PANISSE', 'CHES PANISSE']"
+13,Charlie Trotters,UK,United Kingdom,CHARLIE TROTTERS,14,2005,"['CHARLIE TROTTERS', ""CHARLIE TROTTER'S"", 'CHARLIE TROTTER']"
+14,Gramery Tavern,USA,United States,GRAMERY TAVERN,15,2005,"['GRAMERY TAVERN', 'GRAMERCY TAVERN', 'GRANERCY TAVERN']"
+15,Guy Savoy,France,France,GUY SAVOY,16,2005,['GUY SAVOY']
+16,Alain Ducasse Au Plaza,France,France,ALAIN DUCASSE AU PLAZA ATHENEE,17,2005,['ALAIN DUCASSE AU PLAZA ATHENEE']
+17,Sketch,UK,United Kingdom,SKETCH,18,2005,['SKETCH']
+18,The Waterside Inn,UK,United Kingdom,THE WATERSIDE INN,19,2005,['THE WATERSIDE INN']
+19,Nobu,UK,United Kingdom,NOBU,20,2005,['NOBU']
+20,Arzak,Spain,Spain,ARZAK,21,2005,['ARZAK']
+21,Can Fabes,Spain,Spain,CAN FABES,22,2005,['CAN FABES']
+22,Checchino Dal 1887,Italy,Italy,CHECCHINO DAL 1887,23,2005,['CHECCHINO DAL 1887']
+23,Le Meurice,France,France,LE MEURICE,24,2005,['LE MEURICE']
+24,L'Hotel De Ville,Switzerland,Switzerland,L'HOTEL DE VILLE,25,2005,"[""L'HOTEL DE VILLE""]"
+25,L'Arpege,France,France,L'ARPEGE,26,2005,"[""L'ARPEGE""]"
+26,The Connaught,UK,United Kingdom,THE CONNAUGHT,27,2005,['THE CONNAUGHT']
+27,Le Manoir Aux Quat'Saisons,UK,United Kingdom,LE MANOIR AUX QUAT'SAISONS,28,2005,"[""LE MANOIR AUX QUAT'SAISONS"", ""LE MANOIR AUX QUAT' SAISONS""]"
+28,Le Cinq,France,France,LE CINQ,29,2005,['LE CINQ']
+29,Hakkasan,UK,United Kingdom,HAKKASAN,30,2005,['HAKKASAN']
+30,Cal Pep,Spain,Spain,CAL PEP,31,2005,['CAL PEP']
+31,Masa,USA,United States,MASA,32,2005,['MASA']
+32,Flower Drum,Australia,Australia,FLOWER DRUM,33,2005,['FLOWER DRUM']
+33,Wd~50,USA,United States,WD~50,34,2005,['WD~50']
+34,Le Quartier Francais,Germany,Germany,LE QUARTIER FRANCAIS,35,2005,['LE QUARTIER FRANCAIS']
+35,Spice Market,USA,United States,SPICE MARKET,36,2005,['SPICE MARKET']
+36,L'Auberge De L'lll,France,France,L'AUBERGE DE L'LLL,37,2005,"[""L'AUBERGE DE L'LLL""]"
+37,Manresa,USA,United States,MANRESA,38,2005,['MANRESA']
+38,Dieter Mueller,Denmark,Denmark,DIETER MUELLER,39,2005,['DIETER MUELLER']
+39,La Maison Troisgros,Barbados,Barbados,LA MAISON TROISGROS,40,2005,"['LA MAISON TROISGROS', 'LA MASION TROISGROS', 'MASION TROISGROS']"
+40,The Wolseley,UK,United Kingdom,THE WOLSELEY,41,2005,['THE WOLSELEY']
+41,Rockpool,Australia,Australia,ROCKPOOL,42,2005,['ROCKPOOL']
+42,Yauatcha,UK,United Kingdom,YAUATCHA,43,2005,['YAUATCHA']
+43,The Ivy,France,France,THE IVY,44,2005,['THE IVY']
+44,Gambero Rosso,Italy,Italy,GAMBERO ROSSO,45,2005,"['GAMBERO ROSSO', 'GAMBERO ROSO']"
+45,The Cliff,Barbados,Barbados,THE CLIFF,46,2005,['THE CLIFF']
+46,Le Gavroche,UK,United Kingdom,LE GAVROCHE,47,2005,"['LE GAVROCHE', 'LA GAVROCHE']"
+47,Enoteca Pinchiorri,Italy,Italy,ENOTECA PINCHIORRI,48,2005,['ENOTECA PINCHIORRI']
+48,Felix,Hong Kong,Hong Kong,FELIX,49,2005,['FELIX']
+49,La Tupina,France,France,LA TUPINA,50,2005,['LA TUPINA']
+0,El Bulli,Spain,Spain,EL BULLI,1,2006,['EL BULLI']
+1,The Fat Duck,UK,United Kingdom,THE FAT DUCK,2,2006,['THE FAT DUCK']
+2,Pierre Gagnaire,France,France,PIERRE GAGNAIRE,3,2006,"['PIERRE GAGNAIRE', 'PIEREE GAGNAIRE']"
+3,The French Laundry,USA,United States,THE FRENCH LAUNDRY,4,2006,['THE FRENCH LAUNDRY']
+4,Tetsuya's,Australia,Australia,TETSUYA'S,5,2006,"[""TETSUYA'S"", ""TETSYA'S""]"
+5,Bras,France,France,BRAS,6,2006,['BRAS']
+6,Le Louis XV,France,France,LE LOUIS XV,7,2006,['LE LOUIS XV']
+7,Per Se,USA,United States,PER SE,8,2006,['PER SE']
+8,Arzak,Spain,Spain,ARZAK,9,2006,['ARZAK']
+9,Mugartiz,Spain,Spain,MUGARTIZ,10,2006,"['MUGARTIZ', 'MUGARITZ']"
+10,Can Fabes,Spain,Spain,CAN FABES,11,2006,['CAN FABES']
+11,Nobu,UK,United Kingdom,NOBU,12,2006,['NOBU']
+12,Gambero Rosso,Italy,Italy,GAMBERO ROSSO,13,2006,"['GAMBERO ROSSO', 'GAMBERO ROSO']"
+13,Restaurant Gordon Ramsey,UK,United Kingdom,RESTAURANT GORDON RAMSEY,14,2006,"['RESTAURANT GORDON RAMSEY', 'RESTAURANT GORDON RAMSAY']"
+14,Alain Ducasse Au Plaza,France,France,ALAIN DUCASSE AU PLAZA ATHENEE,15,2006,['ALAIN DUCASSE AU PLAZA ATHENEE']
+15,Jean Georges,New York - USA,United States,JEAN GEORGES,16,2006,['JEAN GEORGES']
+16,Le Cinq,France,France,LE CINQ,17,2006,['LE CINQ']
+17,Daniel,USA,United States,DANIEL,18,2006,['DANIEL']
+18,Oud Sluis,Netherlands,Netherlands,OUD SLUIS,19,2006,['OUD SLUIS']
+19,Chez Panisse,USA,United States,CHEZ PANISSE,20,2006,"['CHEZ PANISSE', 'CHES PANISSE']"
+20,El Celler De Can Roca,Spain,Spain,EL CELLER DE CAN ROCA,21,2006,"['EL CELLER DE CAN ROCA', 'EL CELLAR DE CAN ROCA', 'EL CELLAR DR CAN ROCA']"
+21,L'Astrance,France,France,L'ASTRANCE,22,2006,"[""L'ASTRANCE""]"
+22,Hof Van Cleve,Belgium,Belgium,HOF VAN CLEVE,23,2006,['HOF VAN CLEVE']
+23,Troisgros,France,France,TROISGROS,24,2006,['TROISGROS']
+24,L'Atelier De Joel Roubuchon,France,France,L'ATELIER DE JOEL ROUBUCHON,25,2006,"[""L'ATELIER DE JOEL ROUBUCHON"", ""L'ATELIER DE JOEL ROUBCHON"", ""L'ATELIER DE JOEL ROBUCHON""]"
+25,Charlie Trotters,UK,United Kingdom,CHARLIE TROTTERS,26,2006,"['CHARLIE TROTTERS', ""CHARLIE TROTTER'S"", 'CHARLIE TROTTER']"
+26,Le Gavroche,UK,United Kingdom,LE GAVROCHE,27,2006,"['LE GAVROCHE', 'LA GAVROCHE']"
+27,La Colombe,South Africa,South Africa,LA COLOMBE,28,2006,['LA COLOMBE']
+28,Enoteca Pinchiorri,Italy,Italy,ENOTECA PINCHIORRI,29,2006,['ENOTECA PINCHIORRI']
+29,Rockpool,Australia,Australia,ROCKPOOL,30,2006,['ROCKPOOL']
+30,Le Calandre,Italy,Italy,LE CALANDRE,31,2006,"['LE CALANDRE', 'LA CALANDRE']"
+31,Le Bernardin,USA,United States,LE BERNARDIN,32,2006,['LE BERNARDIN']
+32,Noma,Denmark,Denmark,NOMA,33,2006,['NOMA']
+33,Dieter Mueller,Denamrk,Denmark,DIETER MUELLER,34,2006,['DIETER MUELLER']
+34,St John,UK,United Kingdom,ST JOHN,35,2006,['ST JOHN']
+35,Hakkasan,UK,United Kingdom,HAKKASAN,36,2006,['HAKKASAN']
+36,Martin Berasategui,Spain,Spain,MARTIN BERASATEGUI,37,2006,"['MARTIN BERASATEGUI', 'MARTIN BERASTEGUI', 'MARTAIN BERASATGUI']"
+37,Le Quartier Francais,South Africa,South Africa,LE QUARTIER FRANCAIS,38,2006,['LE QUARTIER FRANCAIS']
+38,Chez Dominique,Finland,Finland,CHEZ DOMINIQUE,39,2006,['CHEZ DOMINIQUE']
+39,L'Ambroisie,France,France,L'AMBROISIE,40,2006,"[""L'AMBROISIE"", ""L'AMBROISIS""]"
+40,Schwarzwaldstube,Germany,Germany,SCHWARZWALDSTUBE,41,2006,"['SCHWARZWALDSTUBE', 'DIE SCHWARZWALDSTUBE', 'DIE SCHWARZALDSTUBE']"
+41,Dal Pescatore,Italy,Italy,DAL PESCATORE,42,2006,"['DAL PESCATORE', 'DAL PASCATORE']"
+42,Bocuse,France,France,BOCUSE,43,2006,['BOCUSE']
+43,L'Apege,France,France,L'ARPEGE,44,2006,"[""L'ARPEGE""]"
+44,Gramercy Tavern,USA,United States,GRAMERCY TAVERN,45,2006,"['GRAMERCY TAVERN', 'GRAMERY TAVERN', 'GRANERCY TAVERN']"
+45,Bukhara,India,India,BUKHARA,46,2006,"['BUKHARA', 'BUKHRA']"
+46,De Karmeliet,Belgium,Belgium,DE KARMELIET,47,2006,['DE KARMELIET']
+47,Oaxen Skargardskrog,Sweden,Sweden,OAXEN SKARGARDSKROG,48,2006,"['OAXEN SKARGARDSKROG', 'OAXEN SKORGORDSKROG']"
+48,Comme Chez Soi,Belgium,Belgium,COMME CHEZ SOI,49,2006,['COMME CHEZ SOI']
+49,D.O.M,Brazil,Brazil,D.O.M,50,2006,"['D.O.M', 'D.O.M.']"
+0,El Bulli,Spain,Spain,EL BULLI,1,2007,['EL BULLI']
+1,The Fat Duck,UK,United Kingdom,THE FAT DUCK,2,2007,['THE FAT DUCK']
+2,Pierre Gagnaire,France,France,PIERRE GAGNAIRE,3,2007,"['PIERRE GAGNAIRE', 'PIEREE GAGNAIRE']"
+3,The French Laundry,USA,United States,THE FRENCH LAUNDRY,4,2007,['THE FRENCH LAUNDRY']
+4,Tetsuya's,Australia,Australia,TETSUYA'S,5,2007,"[""TETSUYA'S"", ""TETSYA'S""]"
+5,Bras,France,France,BRAS,6,2007,['BRAS']
+6,Mugaritz,Spain,Spain,MUGARITZ,7,2007,"['MUGARITZ', 'MUGARTIZ']"
+7,Le Louis XV,France,France,LE LOUIS XV,8,2007,['LE LOUIS XV']
+8,Per Se,USA,United States,PER SE,9,2007,['PER SE']
+9,Arzak,Spain,Spain,ARZAK,10,2007,['ARZAK']
+10,El Celler De Can Roca,Spain,Spain,EL CELLER DE CAN ROCA,11,2007,"['EL CELLER DE CAN ROCA', 'EL CELLAR DE CAN ROCA', 'EL CELLAR DR CAN ROCA']"
+11,Gambero Rosso,Italy,Italy,GAMBERO ROSSO,12,2007,"['GAMBERO ROSSO', 'GAMBERO ROSO']"
+12,L'Atelier De Joel Roubuchon,France,France,L'ATELIER DE JOEL ROUBUCHON,13,2007,"[""L'ATELIER DE JOEL ROUBUCHON"", ""L'ATELIER DE JOEL ROUBCHON"", ""L'ATELIER DE JOEL ROBUCHON""]"
+13,Hof Van Cleve,Belgium,Belgium,HOF VAN CLEVE,14,2007,['HOF VAN CLEVE']
+14,Noma,Denmark,Denmark,NOMA,15,2007,['NOMA']
+15,Le Calandre,Italy,Italy,LE CALANDRE,16,2007,"['LE CALANDRE', 'LA CALANDRE']"
+16,Nobu London,UK,United Kingdom,NOBU LONDON,17,2007,['NOBU LONDON']
+17,Jean Georges,USA,United States,JEAN GEORGES,18,2007,['JEAN GEORGES']
+18,Hakkasan,UK,United Kingdom,HAKKASAN,19,2007,['HAKKASAN']
+19,Alain Ducasse Au Plaza,France,France,ALAIN DUCASSE AU PLAZA ATHENEE,20,2007,['ALAIN DUCASSE AU PLAZA ATHENEE']
+20,L'Astrance,France,France,L'ASTRANCE,21,2007,"[""L'ASTRANCE""]"
+21,Can Fabes,Spain,Spain,CAN FABES,22,2007,['CAN FABES']
+22,L'Ambroisis,France,France,L'AMBROISIS,23,2007,"[""L'AMBROISIS"", ""L'AMBROISIE""]"
+23,Restaurant Gordon Ramsey,UK,United Kingdom,RESTAURANT GORDON RAMSEY,24,2007,"['RESTAURANT GORDON RAMSEY', 'RESTAURANT GORDON RAMSAY']"
+24,Troisgros,France,France,TROISGROS,25,2007,['TROISGROS']
+25,Le Bernardin,USA,United States,LE BERNARDIN,26,2007,['LE BERNARDIN']
+26,Martain Berasatgui,Spain,Spain,MARTAIN BERASATGUI,27,2007,"['MARTAIN BERASATGUI', 'MARTIN BERASATEGUI', 'MARTIN BERASTEGUI']"
+27,Le Gavroche,UK,United Kingdom,LE GAVROCHE,28,2007,"['LE GAVROCHE', 'LA GAVROCHE']"
+28,Le Cinq,France,France,LE CINQ,29,2007,['LE CINQ']
+29,Charlie Trotter,UK,United Kingdom,CHARLIE TROTTER,30,2007,"['CHARLIE TROTTER', 'CHARLIE TROTTERS', ""CHARLIE TROTTER'S""]"
+30,Dal Pescatore,Italy,Italy,DAL PESCATORE,31,2007,"['DAL PESCATORE', 'DAL PASCATORE']"
+31,Daniel,USA,United States,DANIEL,32,2007,['DANIEL']
+32,Rockpool,Australia,Australia,ROCKPOOL,33,2007,['ROCKPOOL']
+33,St John,UK,United Kingdom,ST JOHN,34,2007,['ST JOHN']
+34,Chez Dominique,Finland,Finland,CHEZ DOMINIQUE,35,2007,['CHEZ DOMINIQUE']
+35,Alinea,USA,United States,ALINEA,36,2007,['ALINEA']
+36,Bukhara,India,India,BUKHARA,37,2007,"['BUKHARA', 'BUKHRA']"
+37,D.O.M,Brazil,Brazil,D.O.M,38,2007,"['D.O.M', 'D.O.M.']"
+38,Oaxen Skargardskrog,Sweden,Sweden,OAXEN SKARGARDSKROG,39,2007,"['OAXEN SKARGARDSKROG', 'OAXEN SKORGORDSKROG']"
+39,Chez Panisse,USA,United States,CHEZ PANISSE,40,2007,"['CHEZ PANISSE', 'CHES PANISSE']"
+40,Enoteca Pinchiorri,Italy,Italy,ENOTECA PINCHIORRI,41,2007,['ENOTECA PINCHIORRI']
+41,Cracco Peck,Italy,Italy,CRACCO PECK,42,2007,['CRACCO PECK']
+42,L'Arpege,France,France,L'ARPEGE,43,2007,"[""L'ARPEGE""]"
+43,River Cafe,UK,United Kingdom,RIVER CAFE,44,2007,['RIVER CAFE']
+44,Oud Sluis,Netherlands,Netherlands,OUD SLUIS,45,2007,['OUD SLUIS']
+45,Combal Zero,Italy,Italy,COMBAL ZERO,46,2007,"['COMBAL ZERO', 'COMBAL.ZERO']"
+46,Le Quartier Francais,South Africa,South Africa,LE QUARTIER FRANCAIS,47,2007,['LE QUARTIER FRANCAIS']
+47,Taillevent,France,France,TAILLEVENT,48,2007,['TAILLEVENT']
+48,Bocuse,France,France,BOCUSE,49,2007,['BOCUSE']
+49,Les Ambassadeurs,France,France,LES AMBASSADEURS,50,2007,['LES AMBASSADEURS']
+0,El Bulli,Spain,Spain,EL BULLI,1,2008,['EL BULLI']
+1,The Fat Duck,UK,United Kingdom,THE FAT DUCK,2,2008,['THE FAT DUCK']
+2,Pierre Gagnaire,France,France,PIERRE GAGNAIRE,3,2008,"['PIERRE GAGNAIRE', 'PIEREE GAGNAIRE']"
+3,Mugaritz,Spain,Spain,MUGARITZ,4,2008,"['MUGARITZ', 'MUGARTIZ']"
+4,The French Laundry,USA,United States,THE FRENCH LAUNDRY,5,2008,['THE FRENCH LAUNDRY']
+5,Per Se,USA,United States,PER SE,6,2008,['PER SE']
+6,Bras,France,France,BRAS,7,2008,['BRAS']
+7,Arzak,Spain,Spain,ARZAK,8,2008,['ARZAK']
+8,Tetsuya's,Australia,Australia,TETSUYA'S,9,2008,"[""TETSUYA'S"", ""TETSYA'S""]"
+9,Noma,Denmark,Denmark,NOMA,10,2008,['NOMA']
+10,L'Astrance,France,France,L'ASTRANCE,11,2008,"[""L'ASTRANCE""]"
+11,Gambero Rosso,Italy,Italy,GAMBERO ROSSO,12,2008,"['GAMBERO ROSSO', 'GAMBERO ROSO']"
+12,Restaurant Gordon Ramsey,UK,United Kingdom,RESTAURANT GORDON RAMSEY,13,2008,"['RESTAURANT GORDON RAMSEY', 'RESTAURANT GORDON RAMSAY']"
+13,L'Atelier De Joel Roubuchon,France,France,L'ATELIER DE JOEL ROUBUCHON,14,2008,"[""L'ATELIER DE JOEL ROUBUCHON"", ""L'ATELIER DE JOEL ROUBCHON"", ""L'ATELIER DE JOEL ROBUCHON""]"
+14,Le Louis XV,France,France,LE LOUIS XV,15,2008,['LE LOUIS XV']
+15,St John,UK,United Kingdom,ST JOHN,16,2008,['ST JOHN']
+16,Jean Georges,USA,United States,JEAN GEORGES,17,2008,['JEAN GEORGES']
+17,Alain Ducasse Au Plaza,USA,United States,ALAIN DUCASSE AU PLAZA ATHENEE,18,2008,['ALAIN DUCASSE AU PLAZA ATHENEE']
+18,Hakkasan,UK,United Kingdom,HAKKASAN,19,2008,['HAKKASAN']
+19,Le Bernardin,USA,United States,LE BERNARDIN,20,2008,['LE BERNARDIN']
+20,Alinea,USA,United States,ALINEA,21,2008,['ALINEA']
+21,La Gavroche,UK,United Kingdom,LA GAVROCHE,22,2008,"['LA GAVROCHE', 'LE GAVROCHE']"
+22,Dal Pescatore,Italy,Italy,DAL PESCATORE,23,2008,"['DAL PESCATORE', 'DAL PASCATORE']"
+23,Le Cinq,France,France,LE CINQ,24,2008,['LE CINQ']
+24,Troisgros,France,France,TROISGROS,25,2008,['TROISGROS']
+25,El Celler De Can Roca,Spain,Spain,EL CELLER DE CAN ROCA,26,2008,"['EL CELLER DE CAN ROCA', 'EL CELLAR DE CAN ROCA', 'EL CELLAR DR CAN ROCA']"
+26,L'Hotel De Ville- Philippe Rochat,Switzerland,Switzerland,L'HOTEL DE VILLE  PHILIPPE ROCHAT,27,2008,"[""L'HOTEL DE VILLE  PHILIPPE ROCHAT"", ""L'HOTEL DE VILLE   PHILIPPE ROCHAT""]"
+27,Hof Van Cleve,Belgium,Belgium,HOF VAN CLEVE,28,2008,['HOF VAN CLEVE']
+28,Martin Berasategui,Spain,Spain,MARTIN BERASATEGUI,29,2008,"['MARTIN BERASATEGUI', 'MARTIN BERASTEGUI', 'MARTAIN BERASATGUI']"
+29,Nobu London,UK,United Kingdom,NOBU LONDON,30,2008,['NOBU LONDON']
+30,Can Fabes,Spain,Spain,CAN FABES,31,2008,['CAN FABES']
+31,Enoteca Pinchiorri,Italy,Italy,ENOTECA PINCHIORRI,32,2008,['ENOTECA PINCHIORRI']
+32,Le Meurice,France,France,LE MEURICE,33,2008,['LE MEURICE']
+33,Vendome,Germany,Germany,VENDOME,34,2008,['VENDOME']
+34,Die Schwarzwaldstube,Germany,Germany,DIE SCHWARZWALDSTUBE,35,2008,"['DIE SCHWARZWALDSTUBE', 'DIE SCHWARZALDSTUBE', 'SCHWARZWALDSTUBE']"
+35,Le Calandre,Italy,Italy,LE CALANDRE,36,2008,"['LE CALANDRE', 'LA CALANDRE']"
+36,Ches Panisse,USA,United States,CHES PANISSE,37,2008,"['CHES PANISSE', 'CHEZ PANISSE']"
+37,Charlie Trotter's,UK,United Kingdom,CHARLIE TROTTER'S,38,2008,"[""CHARLIE TROTTER'S"", 'CHARLIE TROTTERS', 'CHARLIE TROTTER']"
+38,Chez Dominique,Finland,Finland,CHEZ DOMINIQUE,39,2008,['CHEZ DOMINIQUE']
+39,D.O.M,Brazil,Brazil,D.O.M,40,2008,"['D.O.M', 'D.O.M.']"
+40,Daniel,USA,United States,DANIEL,41,2008,['DANIEL']
+41,Oud Sluis,Netherlands,Netherlands,OUD SLUIS,42,2008,['OUD SLUIS']
+42,Restorante Cracco,Italy,Italy,RESTORANTE CRACCO,43,2008,"['RESTORANTE CRACCO', 'RISTORANTE CRACCO']"
+43,Asador Etxebarri,Spain,Spain,ASADOR ETXEBARRI,44,2008,"['ASADOR ETXEBARRI', 'ASADOR EXTEBARRI']"
+44,Les Ambassadeurs,France,France,LES AMBASSADEURS,45,2008,['LES AMBASSADEURS']
+45,L'Arpege,France,France,L'ARPEGE,46,2008,"[""L'ARPEGE""]"
+46,Tantris,Germany,Germany,TANTRIS,47,2008,['TANTRIS']
+47,Oaxen Skargardskrog,Sweden,Sweden,OAXEN SKARGARDSKROG,48,2008,"['OAXEN SKARGARDSKROG', 'OAXEN SKORGORDSKROG']"
+48,Rockpool,Australia,Australia,ROCKPOOL,49,2008,['ROCKPOOL']
+49,Le Quartier Francais,South Africa,South Africa,LE QUARTIER FRANCAIS,50,2008,['LE QUARTIER FRANCAIS']
+0,El Bulli,Spain,Spain,EL BULLI,1,2009,['EL BULLI']
+1,The Fat Duck,UK,United Kingdom,THE FAT DUCK,2,2009,['THE FAT DUCK']
+2,Noma,Denmark,Denmark,NOMA,3,2009,['NOMA']
+3,Mugaritz,Spain,Spain,MUGARITZ,4,2009,"['MUGARITZ', 'MUGARTIZ']"
+4,El Cellar Dr Can Roca,Spain,Spain,EL CELLAR DR CAN ROCA,5,2009,"['EL CELLAR DR CAN ROCA', 'EL CELLAR DE CAN ROCA', 'EL CELLER DE CAN ROCA']"
+5,Per Se,USA,United States,PER SE,6,2009,['PER SE']
+6,Bras,France,France,BRAS,7,2009,['BRAS']
+7,Arzak,Spain,Spain,ARZAK,8,2009,['ARZAK']
+8,Pieree Gagnaire,France,France,PIEREE GAGNAIRE,9,2009,"['PIEREE GAGNAIRE', 'PIERRE GAGNAIRE']"
+9,Alinea,USA,United States,ALINEA,10,2009,['ALINEA']
+10,L'Astrance,France,France,L'ASTRANCE,11,2009,"[""L'ASTRANCE""]"
+11,The French Laundry,USA,United States,THE FRENCH LAUNDRY,12,2009,['THE FRENCH LAUNDRY']
+12,Osteria Francescana,Italy,Italy,OSTERIA FRANCESCANA,13,2009,['OSTERIA FRANCESCANA']
+13,St John,UK,United Kingdom,ST JOHN,14,2009,['ST JOHN']
+14,Le Bernardin,USA,United States,LE BERNARDIN,15,2009,['LE BERNARDIN']
+15,L'Hotel De Ville - Philippe ROchat,Switzerland,Switzerland,L'HOTEL DE VILLE   PHILIPPE ROCHAT,16,2009,"[""L'HOTEL DE VILLE   PHILIPPE ROCHAT"", ""L'HOTEL DE VILLE  PHILIPPE ROCHAT""]"
+16,Tetsuya's,Australia,Australia,TETSUYA'S,17,2009,"[""TETSUYA'S"", ""TETSYA'S""]"
+17,L'Atelier De Joel Robuchon,USA,United States,L'ATELIER DE JOEL ROBUCHON,18,2009,"[""L'ATELIER DE JOEL ROBUCHON"", ""L'ATELIER DE JOEL ROUBUCHON"", ""L'ATELIER DE JOEL ROUBCHON""]"
+18,Jean Georges,USA,United States,JEAN GEORGES,19,2009,['JEAN GEORGES']
+19,Narisawa,Japan,Japan,NARISAWA,20,2009,['NARISAWA']
+20,Chez Dominique,Finland,Finland,CHEZ DOMINIQUE,21,2009,['CHEZ DOMINIQUE']
+21,Ristorante Cracco,Italy,Italy,RISTORANTE CRACCO,22,2009,"['RISTORANTE CRACCO', 'RESTORANTE CRACCO']"
+22,Die Schwarzwaldstube,Germany,Germany,DIE SCHWARZWALDSTUBE,23,2009,"['DIE SCHWARZWALDSTUBE', 'DIE SCHWARZALDSTUBE', 'SCHWARZWALDSTUBE']"
+23,D.O.M,Brazil,Brazil,D.O.M,24,2009,"['D.O.M', 'D.O.M.']"
+24,Vendome,Germany,Germany,VENDOME,25,2009,['VENDOME']
+25,Hof Van Cleve,Belgium,Belgium,HOF VAN CLEVE,26,2009,['HOF VAN CLEVE']
+26,Masa,USA,United States,MASA,27,2009,['MASA']
+27,Gambero Roso,Italy,Italy,GAMBERO ROSO,28,2009,"['GAMBERO ROSO', 'GAMBERO ROSSO']"
+28,Oud Sluis,Netherlands,Netherlands,OUD SLUIS,29,2009,['OUD SLUIS']
+29,Steirereck,Austria,Austria,STEIRERECK,30,2009,['STEIRERECK']
+30,Momofuku Ssam Bar,USA,United States,MOMOFUKU SSAM BAR,31,2009,['MOMOFUKU SSAM BAR']
+31,Oaxen Skorgordskrog,Sweden,Sweden,OAXEN SKORGORDSKROG,32,2009,"['OAXEN SKORGORDSKROG', 'OAXEN SKARGARDSKROG']"
+32,Martin Berastegui,Spain,Spain,MARTIN BERASTEGUI,33,2009,"['MARTIN BERASTEGUI', 'MARTIN BERASATEGUI', 'MARTAIN BERASATGUI']"
+33,Nobu London,UK,United Kingdom,NOBU LONDON,34,2009,['NOBU LONDON']
+34,Mirazur,France,France,MIRAZUR,35,2009,['MIRAZUR']
+35,Hakkasan,UK,United Kingdom,HAKKASAN,36,2009,['HAKKASAN']
+36,Le Quartier Francais,South Africa,South Africa,LE QUARTIER FRANCAIS,37,2009,['LE QUARTIER FRANCAIS']
+37,La Colombe,South Africa,South Africa,LA COLOMBE,38,2009,['LA COLOMBE']
+38,Asador Extebarri,Spain,Spain,ASADOR EXTEBARRI,39,2009,"['ASADOR EXTEBARRI', 'ASADOR ETXEBARRI']"
+39,Le Chateaubriand,Spain,Spain,LE CHATEAUBRIAND,40,2009,['LE CHATEAUBRIAND']
+40,Daniel,USA,United States,DANIEL,41,2009,['DANIEL']
+41,Combal Zero,Italy,Italy,COMBAL ZERO,42,2009,"['COMBAL ZERO', 'COMBAL.ZERO']"
+42,Le Louis XV,Monaco,Monaco,LE LOUIS XV,43,2009,['LE LOUIS XV']
+43,Tantris,Germany,Germany,TANTRIS,44,2009,['TANTRIS']
+44,Iggy's,Singapore,Singapore,IGGY'S,45,2009,"[""IGGY'S""]"
+45,Quay,Australia,Australia,QUAY,46,2009,['QUAY']
+46,Les Ambassadeurs,France,France,LES AMBASSADEURS,47,2009,['LES AMBASSADEURS']
+47,Dal Pascatore,Italy,Italy,DAL PASCATORE,48,2009,"['DAL PASCATORE', 'DAL PESCATORE']"
+48,La Calandre,Italy,Italy,LA CALANDRE,49,2009,"['LA CALANDRE', 'LE CALANDRE']"
+49,Mathias Dahlgreen,Sweden,Sweden,MATHIAS DAHLGREEN,50,2009,"['MATHIAS DAHLGREEN', 'MATHIA DAHLGREN', 'MATHIAS DHALGREN']"
+0,Noma,Copenhagen,Denmark,NOMA,1,2010,['NOMA']
+1,El Bulli,Spain,Spain,EL BULLI,2,2010,['EL BULLI']
+2,The Fat Duck,UK,United Kingdom,THE FAT DUCK,3,2010,['THE FAT DUCK']
+3,El Cellar De Can Roca,Spain,Spain,EL CELLAR DE CAN ROCA,4,2010,"['EL CELLAR DE CAN ROCA', 'EL CELLER DE CAN ROCA', 'EL CELLAR DR CAN ROCA']"
+4,Mugaritz,Spain,Spain,MUGARITZ,5,2010,"['MUGARITZ', 'MUGARTIZ']"
+5,Osteria Francescana,Italy,Italy,OSTERIA FRANCESCANA,6,2010,['OSTERIA FRANCESCANA']
+6,Alinea,USA,United States,ALINEA,7,2010,['ALINEA']
+7,Daniel,USA,United States,DANIEL,8,2010,['DANIEL']
+8,Arzak,Spain,Spain,ARZAK,9,2010,['ARZAK']
+9,Per Se,USA,United States,PER SE,10,2010,['PER SE']
+10,Le Chateaubriand,France,France,LE CHATEAUBRIAND,11,2010,['LE CHATEAUBRIAND']
+11,La Colombe,South Africa,South Africa,LA COLOMBE,12,2010,['LA COLOMBE']
+12,Pierre Gagnaire,France,France,PIERRE GAGNAIRE,13,2010,"['PIERRE GAGNAIRE', 'PIEREE GAGNAIRE']"
+13,L'Hotel De Ville - Philippe Rochat,Switzerland,Switzerland,L'HOTEL DE VILLE   PHILIPPE ROCHAT,14,2010,"[""L'HOTEL DE VILLE   PHILIPPE ROCHAT"", ""L'HOTEL DE VILLE  PHILIPPE ROCHAT""]"
+14,Le Bernardin,USA,United States,LE BERNARDIN,15,2010,['LE BERNARDIN']
+15,L'Astrance,France,France,L'ASTRANCE,16,2010,"[""L'ASTRANCE""]"
+16,Hof Van Cleve,Belgium,Belgium,HOF VAN CLEVE,17,2010,['HOF VAN CLEVE']
+17,D.O.M,Brazil,Brazil,D.O.M,18,2010,"['D.O.M', 'D.O.M.']"
+18,Oud Sluis,Netherlands,Netherlands,OUD SLUIS,19,2010,['OUD SLUIS']
+19,Le Calandre,Italy,Italy,LE CALANDRE,20,2010,"['LE CALANDRE', 'LA CALANDRE']"
+20,Steirereck,Austria,Austria,STEIRERECK,21,2010,['STEIRERECK']
+21,Vendome,Germany,Germany,VENDOME,22,2010,['VENDOME']
+22,Chez Dominique,Finland,Finland,CHEZ DOMINIQUE,23,2010,['CHEZ DOMINIQUE']
+23,Narisawa,Japan,Japan,NARISAWA,24,2010,['NARISAWA']
+24,Mathias Dhalgren,Sweden,Sweden,MATHIAS DHALGREN,25,2010,"['MATHIAS DHALGREN', 'MATHIAS DAHLGREEN', 'MATHIA DAHLGREN']"
+25,Momofuku Ssam Bar,USA,United States,MOMOFUKU SSAM BAR,26,2010,['MOMOFUKU SSAM BAR']
+26,Quay,Australia,Australia,QUAY,27,2010,['QUAY']
+27,Iggy's,Singapore,Singapore,IGGY'S,28,2010,"[""IGGY'S""]"
+28,L'Atelier De Joel Robuchon,France,France,L'ATELIER DE JOEL ROBUCHON,29,2010,"[""L'ATELIER DE JOEL ROBUCHON"", ""L'ATELIER DE JOEL ROUBUCHON"", ""L'ATELIER DE JOEL ROUBCHON""]"
+29,Schloss Schauenstein,Switzerland,Switzerland,SCHLOSS SCHAUENSTEIN,30,2010,['SCHLOSS SCHAUENSTEIN']
+30,Le Quartier Francais,South Africa,South Africa,LE QUARTIER FRANCAIS,31,2010,['LE QUARTIER FRANCAIS']
+31,The French Laundry,USA,United States,THE FRENCH LAUNDRY,32,2010,['THE FRENCH LAUNDRY']
+32,Martin Berasategui,Spain,Spain,MARTIN BERASATEGUI,33,2010,"['MARTIN BERASATEGUI', 'MARTIN BERASTEGUI', 'MARTAIN BERASATGUI']"
+33,Aqua,Germany,Germany,AQUA,34,2010,['AQUA']
+34,Combal Zero,Italy,Italy,COMBAL ZERO,35,2010,"['COMBAL ZERO', 'COMBAL.ZERO']"
+35,Dal Pascatore,Italy,Italy,DAL PASCATORE,36,2010,"['DAL PASCATORE', 'DAL PESCATORE']"
+36,De Librije,Netherlands,Netherlands,DE LIBRIJE,37,2010,"['DE LIBRIJE', 'DE LIBRIJIE']"
+37,Tetsya's,Australia,Australia,TETSYA'S,38,2010,"[""TETSYA'S"", ""TETSUYA'S""]"
+38,Jaan Par Andre,Singapore,Singapore,JAAN PAR ANDRE,39,2010,['JAAN PAR ANDRE']
+39,Il Canto,Italy,Italy,IL CANTO,40,2010,['IL CANTO']
+40,Alain Ducasse Au Plaza Athenee,France,France,ALAIN DUCASSE AU PLAZA ATHENEE,41,2010,['ALAIN DUCASSE AU PLAZA ATHENEE']
+41,Oaxen Krog,Sweden,Sweden,OAXEN KROG,42,2010,['OAXEN KROG']
+42,St John,UK,United Kingdom,ST JOHN,43,2010,['ST JOHN']
+43,La Masion Troisgros,France,France,LA MASION TROISGROS,44,2010,"['LA MASION TROISGROS', 'LA MAISON TROISGROS', 'MASION TROISGROS']"
+44,WD~50,USA,United States,WD~50,45,2010,['WD~50']
+45,Biko,Mexico,Mexico,BIKO,46,2010,['BIKO']
+46,Die Schwarzaldstube,Germany,Germany,DIE SCHWARZALDSTUBE,47,2010,"['DIE SCHWARZALDSTUBE', 'DIE SCHWARZWALDSTUBE', 'SCHWARZWALDSTUBE']"
+47,Nihonryoria Ryugin,Japan,Japan,NIHONRYORIA RYUGIN,48,2010,"['NIHONRYORIA RYUGIN', 'NIHONRYORI RYUGIN', 'NIHNRYORI RYUGIN']"
+48,Hibiscus,UK,United Kingdom,HIBISCUS,49,2010,['HIBISCUS']
+49,Eleven Madison Park,USA,United States,ELEVEN MADISON PARK,50,2010,['ELEVEN MADISON PARK']
+0,Noma,Copenhagen,Denmark,NOMA,1,2011,['NOMA']
+1,El Celler De Can Roca,Girona,Spain,EL CELLER DE CAN ROCA,2,2011,"['EL CELLER DE CAN ROCA', 'EL CELLAR DE CAN ROCA', 'EL CELLAR DR CAN ROCA']"
+2,Mugaritz,San Sebastian,Spain,MUGARITZ,3,2011,"['MUGARITZ', 'MUGARTIZ']"
+3,Osteria Francescana,Italy,Italy,OSTERIA FRANCESCANA,4,2011,['OSTERIA FRANCESCANA']
+4,The Fat Duck,UK,United Kingdom,THE FAT DUCK,5,2011,['THE FAT DUCK']
+5,Alinea,USA,United States,ALINEA,6,2011,['ALINEA']
+6,D.O.M,Brazil,Brazil,D.O.M,7,2011,"['D.O.M', 'D.O.M.']"
+7,Arzak,Spain,Spain,ARZAK,8,2011,['ARZAK']
+8,Le Chateaubriand,France,France,LE CHATEAUBRIAND,9,2011,['LE CHATEAUBRIAND']
+9,Per Se,USA,United States,PER SE,10,2011,['PER SE']
+10,Daniel,USA,United States,DANIEL,11,2011,['DANIEL']
+11,Narisawa,Japan,Japan,NARISAWA,12,2011,['NARISAWA']
+12,L'Astrance,France,France,L'ASTRANCE,13,2011,"[""L'ASTRANCE""]"
+13,L'Atelier De Joel Robuchon,France,France,L'ATELIER DE JOEL ROBUCHON,14,2011,"[""L'ATELIER DE JOEL ROBUCHON"", ""L'ATELIER DE JOEL ROUBUCHON"", ""L'ATELIER DE JOEL ROUBCHON""]"
+14,Hof Van Cleve,Belgium,Belgium,HOF VAN CLEVE,15,2011,['HOF VAN CLEVE']
+15,Pierre Gagnaire,France,France,PIERRE GAGNAIRE,16,2011,"['PIERRE GAGNAIRE', 'PIEREE GAGNAIRE']"
+16,Oud Sluisnobu London,Netherlands,Netherlands,OUD SLUISNOBU LONDON,17,2011,['OUD SLUISNOBU LONDON']
+17,Le Bernardin,USA,United States,LE BERNARDIN,18,2011,['LE BERNARDIN']
+18,L'Arpege,France,France,L'ARPEGE,19,2011,"[""L'ARPEGE""]"
+19,Restaurant Frantzén,Stockholm,Sweden,RESTAURANT FRANTZEN,20,2011,"['RESTAURANT FRANTZEN', 'RESTAURANT ANDRE']"
+20,Vendome,Germany,Germany,VENDOME,21,2011,['VENDOME']
+21,Steirereck,Germany,Germany,STEIRERECK,22,2011,['STEIRERECK']
+22,Schloss Schauenstein,Switzerland,Switzerland,SCHLOSS SCHAUENSTEIN,23,2011,['SCHLOSS SCHAUENSTEIN']
+23,Eleven Madison Park,USA,United States,ELEVEN MADISON PARK,24,2011,['ELEVEN MADISON PARK']
+24,Aqua,Germany,Germany,AQUA,25,2011,['AQUA']
+25,Quay,Australia,Australia,QUAY,26,2011,['QUAY']
+26,Iggy's,Singapore,Singapore,IGGY'S,27,2011,"[""IGGY'S""]"
+27,Combal Zero,Italy,Italy,COMBAL ZERO,28,2011,"['COMBAL ZERO', 'COMBAL.ZERO']"
+28,Martin Berasategui,Spain,Spain,MARTIN BERASATEGUI,29,2011,"['MARTIN BERASATEGUI', 'MARTIN BERASTEGUI', 'MARTAIN BERASATGUI']"
+29,Bras,France,France,BRAS,30,2011,['BRAS']
+30,Biko,Mexico,Mexico,BIKO,31,2011,['BIKO']
+31,Le Calandre,Italy,Italy,LE CALANDRE,32,2011,"['LE CALANDRE', 'LA CALANDRE']"
+32,Cracco,Italy,Italy,CRACCO,33,2011,['CRACCO']
+33,The Ledbury,UK,United Kingdom,THE LEDBURY,34,2011,['THE LEDBURY']
+34,Chez Dominique,Finland,Finland,CHEZ DOMINIQUE,35,2011,['CHEZ DOMINIQUE']
+35,Le Quartier Francais,South Africa,South Africa,LE QUARTIER FRANCAIS,36,2011,['LE QUARTIER FRANCAIS']
+36,Amber,Hong Kong,Hong Kong,AMBER,37,2011,['AMBER']
+37,Dal Pescatore,Italy,Italy,DAL PESCATORE,38,2011,"['DAL PESCATORE', 'DAL PASCATORE']"
+38,Il Canto,Italy,Italy,IL CANTO,39,2011,['IL CANTO']
+39,Momofuku Ssam Bar,USA,United States,MOMOFUKU SSAM BAR,40,2011,['MOMOFUKU SSAM BAR']
+40,St John,UK,United Kingdom,ST JOHN,41,2011,['ST JOHN']
+41,Astrid Y Gaston,Peru,Peru,ASTRID Y GASTON,42,2011,['ASTRID Y GASTON']
+42,Hibiscus,UK,United Kingdom,HIBISCUS,43,2011,['HIBISCUS']
+43,Masion Troisgros,France,France,MASION TROISGROS,44,2011,"['MASION TROISGROS', 'LA MASION TROISGROS', 'LA MAISON TROISGROS']"
+44,Alain Ducasse Au Plaza Athenee,France,France,ALAIN DUCASSE AU PLAZA ATHENEE,45,2011,['ALAIN DUCASSE AU PLAZA ATHENEE']
+45,De Librijie,Netherlands,Netherlands,DE LIBRIJIE,46,2011,"['DE LIBRIJIE', 'DE LIBRIJE']"
+46,Restaurant De L'Hotel De Ville,Switzerland,Switzerland,RESTAURANT DE L'HOTEL DE VILLE,47,2011,"[""RESTAURANT DE L'HOTEL DE VILLE""]"
+47,Varvary,Russia,Russia,VARVARY,48,2011,['VARVARY']
+48,Pujol,Mexico,Mexico,PUJOL,49,2011,['PUJOL']
+49,Asador Etxebarri,Spain,Spain,ASADOR ETXEBARRI,50,2011,"['ASADOR ETXEBARRI', 'ASADOR EXTEBARRI']"
+0,Noma,Copenhagen,Denmark,NOMA,1,2012,['NOMA']
+1,El Celler De Can Roca,Girona,Spain,EL CELLER DE CAN ROCA,2,2012,"['EL CELLER DE CAN ROCA', 'EL CELLAR DE CAN ROCA', 'EL CELLAR DR CAN ROCA']"
+2,Mugaritz,San Sebastian,Spain,MUGARITZ,3,2012,"['MUGARITZ', 'MUGARTIZ']"
+3,D.O.M,Sao Paulo,Brazil,D.O.M,4,2012,"['D.O.M', 'D.O.M.']"
+4,Osteria Francescana,Modena,Italy,OSTERIA FRANCESCANA,5,2012,['OSTERIA FRANCESCANA']
+5,Per Se,New York,United States,PER SE,6,2012,['PER SE']
+6,Alinea,Chicago,United States,ALINEA,7,2012,['ALINEA']
+7,Arzak,San Sebastian,Spain,ARZAK,8,2012,['ARZAK']
+8,Dinner By Heston Blumenthal,London,United Kingdom,DINNER BY HESTON BLUMENTHAL,9,2012,['DINNER BY HESTON BLUMENTHAL']
+9,Eleven Madison Park,New York,United States,ELEVEN MADISON PARK,10,2012,['ELEVEN MADISON PARK']
+10,Steirereck,Vienna,Austria,STEIRERECK,11,2012,['STEIRERECK']
+11,L'Atelier Saint-Germain De Joël Robuchon,Paris,France,L'ATELIER SAINT GERMAIN DE JOEL ROBUCHON,12,2012,"[""L'ATELIER SAINT GERMAIN DE JOEL ROBUCHON""]"
+12,The Fat Duck,Bray,United Kingdom,THE FAT DUCK,13,2012,['THE FAT DUCK']
+13,The Ledbury,London,United Kingdom,THE LEDBURY,14,2012,['THE LEDBURY']
+14,Le Chateaubriand,Paris,France,LE CHATEAUBRIAND,15,2012,['LE CHATEAUBRIAND']
+15,L'Arpege,Paris,France,L'ARPEGE,16,2012,"[""L'ARPEGE""]"
+16,Pierre Gagnaire,Paris,France,PIERRE GAGNAIRE,17,2012,"['PIERRE GAGNAIRE', 'PIEREE GAGNAIRE']"
+17,L'Astrance,Paris,France,L'ASTRANCE,18,2012,"[""L'ASTRANCE""]"
+18,Le Bernardin,New York,United States,LE BERNARDIN,19,2012,['LE BERNARDIN']
+19,Restaurant Frantzén,Stockholm,Sweden,RESTAURANT FRANTZEN,20,2012,"['RESTAURANT FRANTZEN', 'RESTAURANT ANDRE']"
+20,Oud Sluis,Sluis,Netherlands,OUD SLUIS,21,2012,['OUD SLUIS']
+21,Aqua,Wolfsburg,Germany,AQUA,22,2012,['AQUA']
+22,Vendome,Bergisch Gladbach,Germany,VENDOME,23,2012,['VENDOME']
+23,Mirazur,Menton,France,MIRAZUR,24,2012,['MIRAZUR']
+24,Daniel,New York,United States,DANIEL,25,2012,['DANIEL']
+25,Iggy's,Singapore,Singapore,IGGY'S,26,2012,"[""IGGY'S""]"
+26,Narisawa,Tokyo,Japan,NARISAWA,27,2012,['NARISAWA']
+27,Nihnryori Ryugin,Tokyo,Japan,NIHNRYORI RYUGIN,28,2012,"['NIHNRYORI RYUGIN', 'NIHONRYORI RYUGIN', 'NIHONRYORIA RYUGIN']"
+28,Quay,Sydney,Australia,QUAY,29,2012,['QUAY']
+29,Schloss Schauenstein,Furstenau,Switzerland,SCHLOSS SCHAUENSTEIN,30,2012,['SCHLOSS SCHAUENSTEIN']
+30,Asador Etxebarri,Atxondo,Spain,ASADOR ETXEBARRI,31,2012,"['ASADOR ETXEBARRI', 'ASADOR EXTEBARRI']"
+31,Le Calandre,Rubano,Italy,LE CALANDRE,32,2012,"['LE CALANDRE', 'LA CALANDRE']"
+32,De Librije,Zwolle,Netherlands,DE LIBRIJE,33,2012,"['DE LIBRIJE', 'DE LIBRIJIE']"
+33,Fäviken,Jarpen,Sweden,FAVIKEN,34,2012,['FAVIKEN']
+34,Astrid Y Gaston,Lima,Peru,ASTRID Y GASTON,35,2012,['ASTRID Y GASTON']
+35,Pujol,Mexico City,Mexico,PUJOL,36,2012,['PUJOL']
+36,MomoFuku Ssäm Bar,New York,United States,MOMOFUKU SSAM BAR,37,2012,['MOMOFUKU SSAM BAR']
+37,Biko,Mexico City,Mexico,BIKO,38,2012,['BIKO']
+38,Waku Ghin,Singapore,Singapore,WAKU GHIN,39,2012,['WAKU GHIN']
+39,Quique Dacosta,Denia,Spain,QUIQUE DACOSTA,40,2012,['QUIQUE DACOSTA']
+40,Mathia Dahlgren,Stockholm,Sweden,MATHIA DAHLGREN,41,2012,"['MATHIA DAHLGREN', 'MATHIAS DAHLGREEN', 'MATHIAS DHALGREN']"
+41,Hof Van Cleve,Kruishoutem,Belgium,HOF VAN CLEVE,42,2012,['HOF VAN CLEVE']
+42,The French Laundry,Yountville,United States,THE FRENCH LAUNDRY,43,2012,['THE FRENCH LAUNDRY']
+43,Amber,Hong Kong,China,AMBER,44,2012,['AMBER']
+44,Villa Joya,Albufeira,Portugal,VILLA JOYA,45,2012,"['VILLA JOYA', 'VILA JOYA']"
+45,Il Canto,Siena,Italy,IL CANTO,46,2012,['IL CANTO']
+46,Bras Restaurant,Laguiole,France,BRAS RESTAURANT,47,2012,['BRAS RESTAURANT']
+47,Manresa,Los Gatos,United States,MANRESA,48,2012,['MANRESA']
+48,Geranium,Copenhagen,Denmark,GERANIUM,49,2012,['GERANIUM']
+49,Nahm,Bangkok,Thailand,NAHM,50,2012,['NAHM']
+0,El Celler de Can Roca,Girona,Spain,EL CELLER DE CAN ROCA,1,2013,"['EL CELLER DE CAN ROCA', 'EL CELLAR DE CAN ROCA', 'EL CELLAR DR CAN ROCA']"
+1,Noma,Copenhagen,Denmark,NOMA,2,2013,['NOMA']
+2,Osteria Francescana,Modena,Italy,OSTERIA FRANCESCANA,3,2013,['OSTERIA FRANCESCANA']
+3,Mugaritz,San Sebastián,Spain,MUGARITZ,4,2013,"['MUGARITZ', 'MUGARTIZ']"
+4,Eleven Madison Park,New York,United States,ELEVEN MADISON PARK,5,2013,['ELEVEN MADISON PARK']
+5,D.O.M.,São Paulo,Brazil,D.O.M.,6,2013,"['D.O.M.', 'D.O.M']"
+6,Dinner by Heston Blumenthal,London,United Kingdom,DINNER BY HESTON BLUMENTHAL,7,2013,['DINNER BY HESTON BLUMENTHAL']
+7,Arzak,San Sebastian,Spain,ARZAK,8,2013,['ARZAK']
+8,Steirereck,Vienna,Austria,STEIRERECK,9,2013,['STEIRERECK']
+9,Vendôme,Bergisch Gladbach,Germany,VENDOME,10,2013,['VENDOME']
+10,Per Se,New York,United States,PER SE,11,2013,['PER SE']
+11,Frantzén/Lindeberg,Stockholm,Sweden,FRANTZEN/LINDEBERG,12,2013,['FRANTZEN/LINDEBERG']
+12,The Ledbury,London,United Kingdom,THE LEDBURY,13,2013,['THE LEDBURY']
+13,Astrid y Gastón,Lima,Peru,ASTRID Y GASTON,14,2013,['ASTRID Y GASTON']
+14,Alinea,Chicago,United States,ALINEA,15,2013,['ALINEA']
+15,L'Arpege,Paris,France,L'ARPEGE,16,2013,"[""L'ARPEGE""]"
+16,Pujol,Mexico City,Mexico,PUJOL,17,2013,['PUJOL']
+17,Le Chateaubriand,Paris,France,LE CHATEAUBRIAND,18,2013,['LE CHATEAUBRIAND']
+18,Le Bernardin,New York,United States,LE BERNARDIN,19,2013,['LE BERNARDIN']
+19,Narisawa,Tokyo,Japan,NARISAWA,20,2013,['NARISAWA']
+20,Attica,Melbourne,Australia,ATTICA,21,2013,['ATTICA']
+21,Nihonryori RyuGin,Tokyo,Japan,NIHONRYORI RYUGIN,22,2013,"['NIHONRYORI RYUGIN', 'NIHONRYORIA RYUGIN', 'NIHNRYORI RYUGIN']"
+22,L'Astrance,Paris,France,L'ASTRANCE,23,2013,"[""L'ASTRANCE""]"
+23,L'Atelier Saint-Germain de Jöel Robuchon,Paris,France,L'ATELIER SAINT GERMAIN DE JOEL ROBUCHON,24,2013,"[""L'ATELIER SAINT GERMAIN DE JOEL ROBUCHON""]"
+24,Hof Van Cleve,Kruishoutem,Belgium,HOF VAN CLEVE,25,2013,['HOF VAN CLEVE']
+25,Quique Dacosta,Dénia,Spain,QUIQUE DACOSTA,26,2013,['QUIQUE DACOSTA']
+26,Le Calandre,Rubano,Italy,LE CALANDRE,27,2013,"['LE CALANDRE', 'LA CALANDRE']"
+27,Mirazur,Menton,France,MIRAZUR,28,2013,['MIRAZUR']
+28,Daniel,New York,United States,DANIEL,29,2013,['DANIEL']
+29,Aqua,Wolfsburg,Germany,AQUA,30,2013,['AQUA']
+30,Biko,Mexico City,Mexico,BIKO,31,2013,['BIKO']
+31,Nahm,Bangkok,Thailand,NAHM,32,2013,['NAHM']
+32,The Fat Duck,Bray,United Kingdom,THE FAT DUCK,33,2013,['THE FAT DUCK']
+33,Fäviken,Jarpen,Sweden,FAVIKEN,34,2013,['FAVIKEN']
+34,Oud Sluis,Sluis,Netherlands,OUD SLUIS,35,2013,['OUD SLUIS']
+35,Amber,Hong Kong,China,AMBER,36,2013,['AMBER']
+36,Vila Joya,Albufeira,Portugal,VILA JOYA,37,2013,"['VILA JOYA', 'VILLA JOYA']"
+37,Restaurant André,Singapore,Singapore,RESTAURANT ANDRE,38,2013,"['RESTAURANT ANDRE', 'RESTAURANT FRANTZEN']"
+38,8½ Otto E Mezzo Bombana,Hong Kong,China,81⁄2 OTTO E MEZZO BOMBANA,39,2013,"['81⁄2 OTTO E MEZZO BOMBANA', '8 1/2 OTTO E MEZZO BOMBANA']"
+39,Combal.Zero,Rivoli,Italy,COMBAL.ZERO,40,2013,"['COMBAL.ZERO', 'COMBAL ZERO']"
+40,Piazza Duomo,Alba,Italy,PIAZZA DUOMO,41,2013,['PIAZZA DUOMO']
+41,Schloss Schauenstein,Fürstenau,Switzerland,SCHLOSS SCHAUENSTEIN,42,2013,['SCHLOSS SCHAUENSTEIN']
+42,Mr & Mrs Bund,Shanghai,China,MR & MRS BUND,43,2013,['MR & MRS BUND']
+43,Asador Etxebarri,Atxondo,Spain,ASADOR ETXEBARRI,44,2013,"['ASADOR ETXEBARRI', 'ASADOR EXTEBARRI']"
+44,Geranium,Copenhagen,Denmark,GERANIUM,45,2013,['GERANIUM']
+45,Mani,São Paulo,Brazil,MANI,46,2013,['MANI']
+46,The French Laundry,Yountville,United States,THE FRENCH LAUNDRY,47,2013,['THE FRENCH LAUNDRY']
+47,Quay,Sydney,Australia,QUAY,48,2013,['QUAY']
+48,Septime,Paris,France,SEPTIME,49,2013,['SEPTIME']
+49,Central,Lima,Peru,CENTRAL,50,2013,['CENTRAL']
+0,Noma,Copenhagen,Denmark,NOMA,1,2014,['NOMA']
+1,El Celler de Can Roca,Girona,Spain,EL CELLER DE CAN ROCA,2,2014,"['EL CELLER DE CAN ROCA', 'EL CELLAR DE CAN ROCA', 'EL CELLAR DR CAN ROCA']"
+2,Osteria Francescana,Modena,Italy,OSTERIA FRANCESCANA,3,2014,['OSTERIA FRANCESCANA']
+3,Eleven Madison Park,New York,United States,ELEVEN MADISON PARK,4,2014,['ELEVEN MADISON PARK']
+4,Dinner by Heston Blumenthal,London,United Kingdom,DINNER BY HESTON BLUMENTHAL,5,2014,['DINNER BY HESTON BLUMENTHAL']
+5,Mugaritz,San Sebastián,Spain,MUGARITZ,6,2014,"['MUGARITZ', 'MUGARTIZ']"
+6,D.O.M,São Paulo,Brazil,D.O.M,7,2014,"['D.O.M', 'D.O.M.']"
+7,Arzak,San Sebastián,Spain,ARZAK,8,2014,['ARZAK']
+8,Alinea,Chicago,United States,ALINEA,9,2014,['ALINEA']
+9,The Ledbury,London,United Kingdom,THE LEDBURY,10,2014,['THE LEDBURY']
+10,Mirazur,Menton,France,MIRAZUR,11,2014,['MIRAZUR']
+11,Vendôme,Bergisch Gladbach,Germany,VENDOME,12,2014,['VENDOME']
+12,Nahm,Bangkok,Thailand,NAHM,13,2014,['NAHM']
+13,Narisawa,Tokyo,Japan,NARISAWA,14,2014,['NARISAWA']
+14,Central,Lima,Peru,CENTRAL,15,2014,['CENTRAL']
+15,Steirereck,Vienna,Austria,STEIRERECK,16,2014,['STEIRERECK']
+16,Gaggan,Bangkok,Thailand,GAGGAN,17,2014,['GAGGAN']
+17,Astrid y Gastón,Lima,Peru,ASTRID Y GASTON,18,2014,['ASTRID Y GASTON']
+18,Fäviken,Järpen,Sweden,FAVIKEN,19,2014,['FAVIKEN']
+19,Pujol,Mexico City,Mexico,PUJOL,20,2014,['PUJOL']
+20,Le Bernardin,New York,United States,LE BERNARDIN,21,2014,['LE BERNARDIN']
+21,Vila Joya,Albufeira,Portugal,VILA JOYA,22,2014,"['VILA JOYA', 'VILLA JOYA']"
+22,Restaurant Frantzén,Stockholm,Sweden,RESTAURANT FRANTZEN,23,2014,"['RESTAURANT FRANTZEN', 'RESTAURANT ANDRE']"
+23,Amber,Hong Kong,China,AMBER,24,2014,['AMBER']
+24,L'Arpége,Paris,France,L'ARPEGE,25,2014,"[""L'ARPEGE""]"
+25,Azurmendi,Larrabetzu,Spain,AZURMENDI,26,2014,['AZURMENDI']
+26,Le Chateaubriand,Paris,France,LE CHATEAUBRIAND,27,2014,['LE CHATEAUBRIAND']
+27,Aqua,Wolfsburg,Germany,AQUA,28,2014,['AQUA']
+28,De Librije,Zwolle,Netherlands,DE LIBRIJE,29,2014,"['DE LIBRIJE', 'DE LIBRIJIE']"
+29,Per Se,New York,United States,PER SE,30,2014,['PER SE']
+30,L’Atelier Saint-Germain de Joël Robuchon,Paris,France,L'ATELIER SAINT GERMAIN DE JOEL ROBUCHON,31,2014,"[""L'ATELIER SAINT GERMAIN DE JOEL ROBUCHON""]"
+31,Attica,Melbourne,Australia,ATTICA,32,2014,['ATTICA']
+32,Nihonryori RyuGin,Tokyo,Japan,NIHONRYORI RYUGIN,33,2014,"['NIHONRYORI RYUGIN', 'NIHONRYORIA RYUGIN', 'NIHNRYORI RYUGIN']"
+33,Asador Etxebarri,Atxondo,Spain,ASADOR ETXEBARRI,34,2014,"['ASADOR ETXEBARRI', 'ASADOR EXTEBARRI']"
+34,Martín Berasategui,San Sebastián,Spain,MARTIN BERASATEGUI,35,2014,"['MARTIN BERASATEGUI', 'MARTIN BERASTEGUI', 'MARTAIN BERASATGUI']"
+35,Mani,São Paulo,Brazil,MANI,36,2014,['MANI']
+36,Restaurant André,Singapore,Singapore,RESTAURANT ANDRE,37,2014,"['RESTAURANT ANDRE', 'RESTAURANT FRANTZEN']"
+37,L’Astrance,Paris,France,L'ASTRANCE,38,2014,"[""L'ASTRANCE""]"
+38,Piazza Duomo,Alba,Italy,PIAZZA DUOMO,39,2014,['PIAZZA DUOMO']
+39,Daniel,New York,United States,DANIEL,40,2014,['DANIEL']
+40,Quique Dacosta,Dénia,Spain,QUIQUE DACOSTA,41,2014,['QUIQUE DACOSTA']
+41,Geranium,Copenhagen,Denmark,GERANIUM,42,2014,['GERANIUM']
+42,Schloss Schauenstein,Fürstenau,Switzerland,SCHLOSS SCHAUENSTEIN,43,2014,['SCHLOSS SCHAUENSTEIN']
+43,The French Laundry,Yountville,United States,THE FRENCH LAUNDRY,44,2014,['THE FRENCH LAUNDRY']
+44,Hof Van Cleve,Kruishoutem,Belgium,HOF VAN CLEVE,45,2014,['HOF VAN CLEVE']
+45,Le Calandre,Rubano,Italy,LE CALANDRE,46,2014,"['LE CALANDRE', 'LA CALANDRE']"
+46,The Fat Duck,Bray,United Kingdom,THE FAT DUCK,47,2014,['THE FAT DUCK']
+47,The Test Kitchen,The Test Kitchen,South Africa,THE TEST KITCHEN,48,2014,['THE TEST KITCHEN']
+48,Coi,San Francisco,United States,COI,49,2014,['COI']
+49,Waku Ghin,Singapore,Singapore,WAKU GHIN,50,2014,['WAKU GHIN']
+0,El Celler de Can Roca,Girona,Spain,EL CELLER DE CAN ROCA,1,2015,"['EL CELLER DE CAN ROCA', 'EL CELLAR DE CAN ROCA', 'EL CELLAR DR CAN ROCA']"
+1,Osteria Francescana,Modena,Italy,OSTERIA FRANCESCANA,2,2015,['OSTERIA FRANCESCANA']
+2,Noma,Copenhagen,Denmark,NOMA,3,2015,['NOMA']
+3,Central,Lima,Peru,CENTRAL,4,2015,['CENTRAL']
+4,Eleven Madison Park,New York,United States,ELEVEN MADISON PARK,5,2015,['ELEVEN MADISON PARK']
+5,Mugaritz,San Sebastián,Spain,MUGARITZ,6,2015,"['MUGARITZ', 'MUGARTIZ']"
+6,Dinner by Heston Blumenthal,London,United Kingdom,DINNER BY HESTON BLUMENTHAL,7,2015,['DINNER BY HESTON BLUMENTHAL']
+7,Narisawa,Tokyo,Japan,NARISAWA,8,2015,['NARISAWA']
+8,D.O.M.,São Paulo,Brazil,D.O.M.,9,2015,"['D.O.M.', 'D.O.M']"
+9,Gaggan,Bangkok,Thailand,GAGGAN,10,2015,['GAGGAN']
+10,Mirazur,Menton,France,MIRAZUR,11,2015,['MIRAZUR']
+11,L'Arpège,Paris,France,L'ARPEGE,12,2015,"[""L'ARPEGE""]"
+12,Asador Etxebarri,Atxondo,Spain,ASADOR ETXEBARRI,13,2015,"['ASADOR ETXEBARRI', 'ASADOR EXTEBARRI']"
+13,Astrid y Gastón,Lima,Peru,ASTRID Y GASTON,14,2015,['ASTRID Y GASTON']
+14,Steirereck,Vienna,Austria,STEIRERECK,15,2015,['STEIRERECK']
+15,Pujol,Mexico City,Mexico,PUJOL,16,2015,['PUJOL']
+16,Arzak,San Sebastián,Spain,ARZAK,17,2015,['ARZAK']
+17,Le Bernardin,New York,United States,LE BERNARDIN,18,2015,['LE BERNARDIN']
+18,Azurmendi,Larrabetzu,Spain,AZURMENDI,19,2015,['AZURMENDI']
+19,The Ledbury,London,United Kingdom,THE LEDBURY,20,2015,['THE LEDBURY']
+20,Le Chateaubriand,Paris,France,LE CHATEAUBRIAND,21,2015,['LE CHATEAUBRIAND']
+21,Nahm,Bangkok,Thailand,NAHM,22,2015,['NAHM']
+22,White Rabbit,Moscow,Russia,WHITE RABBIT,23,2015,['WHITE RABBIT']
+23,Ultraviolet by Paul Pairet,Shanghai,China,ULTRAVIOLET BY PAUL PAIRET,24,2015,['ULTRAVIOLET BY PAUL PAIRET']
+24,Fäviken,Järpen,Sweden,FAVIKEN,25,2015,['FAVIKEN']
+25,Alinea,Chicago,United States,ALINEA,26,2015,['ALINEA']
+26,Piazza Duomo,Alba,Italy,PIAZZA DUOMO,27,2015,['PIAZZA DUOMO']
+27,The Test Kitchen,The Test Kitchen,South Africa,THE TEST KITCHEN,28,2015,['THE TEST KITCHEN']
+28,Nihonryori RyuGin,Tokyo,Japan,NIHONRYORI RYUGIN,29,2015,"['NIHONRYORI RYUGIN', 'NIHONRYORIA RYUGIN', 'NIHNRYORI RYUGIN']"
+29,Vendôme,Bergisch Gladbach,Germany,VENDOME,30,2015,['VENDOME']
+30,Restaurant Frantzén,Stockholm,Sweden,RESTAURANT FRANTZEN,31,2015,"['RESTAURANT FRANTZEN', 'RESTAURANT ANDRE']"
+31,Attica,Melbourne,Australia,ATTICA,32,2015,['ATTICA']
+32,Aqua,Wolfsburg,Germany,AQUA,33,2015,['AQUA']
+33,Le Calandre,Rubano,Italy,LE CALANDRE,34,2015,"['LE CALANDRE', 'LA CALANDRE']"
+34,Quintonil,Mexico City,Mexico,QUINTONIL,35,2015,['QUINTONIL']
+35,L'Astrance,Paris,France,L'ASTRANCE,36,2015,"[""L'ASTRANCE""]"
+36,Biko,Mexico City,Mexico,BIKO,37,2015,['BIKO']
+37,Amber,Hong Kong,China,AMBER,38,2015,['AMBER']
+38,Quique Dacosta,Dénia,Spain,QUIQUE DACOSTA,39,2015,['QUIQUE DACOSTA']
+39,Per Se,New York,United States,PER SE,40,2015,['PER SE']
+40,Maní,São Paulo,Brazil,MANI,41,2015,['MANI']
+41,Boragó,Santiago,Chile,BORAGO,42,2015,['BORAGO']
+42,Tickets,Barcelona,Spain,TICKETS,43,2015,['TICKETS']
+43,Maido,Lima,Peru,MAIDO,44,2015,['MAIDO']
+44,Relae,Copenhagen,Denmark,RELAE,45,2015,"['RELAE', 'REALE']"
+45,Restaurant André,Singapore,Singapore,RESTAURANT ANDRE,46,2015,"['RESTAURANT ANDRE', 'RESTAURANT FRANTZEN']"
+46,Alain Ducasse au Plaza Athénée,Paris,France,ALAIN DUCASSE AU PLAZA ATHENEE,47,2015,['ALAIN DUCASSE AU PLAZA ATHENEE']
+47,Schloss Schauenstein,Fürstenau,Switzerland,SCHLOSS SCHAUENSTEIN,48,2015,['SCHLOSS SCHAUENSTEIN']
+48,Blue Hill at Stone Barns,Pocantico Hills,United States,BLUE HILL AT STONE BARNS,49,2015,['BLUE HILL AT STONE BARNS']
+49,The French Laundry,Yountville,United States,THE FRENCH LAUNDRY,50,2015,['THE FRENCH LAUNDRY']
+0,Osteria Francescana,Modena,Italy,OSTERIA FRANCESCANA,1,2016,['OSTERIA FRANCESCANA']
+1,El Celler de Can Roca,Girona,Spain,EL CELLER DE CAN ROCA,2,2016,"['EL CELLER DE CAN ROCA', 'EL CELLAR DE CAN ROCA', 'EL CELLAR DR CAN ROCA']"
+2,Eleven Madison Park,New York,United States,ELEVEN MADISON PARK,3,2016,['ELEVEN MADISON PARK']
+3,Central,Lima,Peru,CENTRAL,4,2016,['CENTRAL']
+4,Noma,Copenhagen,Denmark,NOMA,5,2016,['NOMA']
+5,Mirazur,Menton,France,MIRAZUR,6,2016,['MIRAZUR']
+6,Mugaritz,San Sebastian,Spain,MUGARITZ,7,2016,"['MUGARITZ', 'MUGARTIZ']"
+7,Narisawa,Tokyo,Japan,NARISAWA,8,2016,['NARISAWA']
+8,Steirereck,Vienna,Austria,STEIRERECK,9,2016,['STEIRERECK']
+9,Asador Etxebarri,Axpe,Spain,ASADOR ETXEBARRI,10,2016,"['ASADOR ETXEBARRI', 'ASADOR EXTEBARRI']"
+10,D.O.M.,São Paulo,Brazil,D.O.M.,11,2016,"['D.O.M.', 'D.O.M']"
+11,Quintonil,Mexico City,Mexico,QUINTONIL,12,2016,['QUINTONIL']
+12,Maido,Lima,Peru,MAIDO,13,2016,['MAIDO']
+13,The Ledbury,London,United Kingdom,THE LEDBURY,14,2016,['THE LEDBURY']
+14,Alinea,Chicago,United States,ALINEA,15,2016,['ALINEA']
+15,Azurmendi,Larrabetzu,Spain,AZURMENDI,16,2016,['AZURMENDI']
+16,Piazza Duomo,Alba,Italy,PIAZZA DUOMO,17,2016,['PIAZZA DUOMO']
+17,White Rabbit,Moscow,Russia,WHITE RABBIT,18,2016,['WHITE RABBIT']
+18,Arpège,Paris,France,L'ARPEGE,19,2016,"[""L'ARPEGE""]"
+19,Amber,Hong Kong,China,AMBER,20,2016,['AMBER']
+20,Arzak,San Sebastian,Spain,ARZAK,21,2016,['ARZAK']
+21,The Test Kitchen,Cape Town,South Africa,THE TEST KITCHEN,22,2016,['THE TEST KITCHEN']
+22,Gaggan,Bangkok,Thailand,GAGGAN,23,2016,['GAGGAN']
+23,Le Bernardin,New York,United States,LE BERNARDIN,24,2016,['LE BERNARDIN']
+24,Pujol,Mexico City,Mexico,PUJOL,25,2016,['PUJOL']
+25,The Clove Club,London,United Kingdom,THE CLOVE CLUB,26,2016,['THE CLOVE CLUB']
+26,Saison,San Francisco,United States,SAISON,27,2016,['SAISON']
+27,Geranium,Copenhagen,Denmark,GERANIUM,28,2016,['GERANIUM']
+28,Tickets,Barcelona,Spain,TICKETS,29,2016,['TICKETS']
+29,Astrid y Gastón,Lima,Peru,ASTRID Y GASTON,30,2016,['ASTRID Y GASTON']
+30,Nihonryori RyuGin,Tokyo,Japan,NIHONRYORI RYUGIN,31,2016,"['NIHONRYORI RYUGIN', 'NIHONRYORIA RYUGIN', 'NIHNRYORI RYUGIN']"
+31,Restaurant André,Singapore,Singapore,RESTAURANT ANDRE,32,2016,"['RESTAURANT ANDRE', 'RESTAURANT FRANTZEN']"
+32,Attica,Melbourne,Australia,ATTICA,33,2016,['ATTICA']
+33,Restaurant Tim Raue,Berlin,Germany,RESTAURANT TIM RAUE,34,2016,['RESTAURANT TIM RAUE']
+34,Vendôme,Bergisch Gladbach,Germany,VENDOME,35,2016,['VENDOME']
+35,Boragó,Santiago,Chile,BORAGO,36,2016,['BORAGO']
+36,Nahm,Bangkok,Thailand,NAHM,37,2016,['NAHM']
+37,De Librije,Zwolle,Netherlands,DE LIBRIJE,38,2016,"['DE LIBRIJE', 'DE LIBRIJIE']"
+38,Le Calandre,Rubano,Italy,LE CALANDRE,39,2016,"['LE CALANDRE', 'LA CALANDRE']"
+39,Relae,Copenhagen,Denmark,RELAE,40,2016,"['RELAE', 'REALE']"
+40,Fäviken,Järpen,Sweden,FAVIKEN,41,2016,['FAVIKEN']
+41,Ultraviolet by Paul Pairet,Shanghai,China,ULTRAVIOLET BY PAUL PAIRET,42,2016,['ULTRAVIOLET BY PAUL PAIRET']
+42,Biko,Mexico City,Mexico,BIKO,43,2016,['BIKO']
+43,Estela,New York,United States,ESTELA,44,2016,['ESTELA']
+44,Dinner by Heston Blumenthal,London,United Kingdom,DINNER BY HESTON BLUMENTHAL,45,2016,['DINNER BY HESTON BLUMENTHAL']
+45,Combal Zero,Rivoli,Italy,COMBAL ZERO,46,2016,"['COMBAL ZERO', 'COMBAL.ZERO']"
+46,Schloss Schauenstein,Fürstenau,Switzerland,SCHLOSS SCHAUENSTEIN,47,2016,['SCHLOSS SCHAUENSTEIN']
+47,Blue Hill at Stone Barns,Pocantico Hills,United States,BLUE HILL AT STONE BARNS,48,2016,['BLUE HILL AT STONE BARNS']
+48,Quique Dacosta,Denia,Spain,QUIQUE DACOSTA,49,2016,['QUIQUE DACOSTA']
+49,Septime,Paris,France,SEPTIME,50,2016,['SEPTIME']
+0,Eleven Madison Park,New York,United States,ELEVEN MADISON PARK,1,2017,['ELEVEN MADISON PARK']
+1,Osteria Francescana,Modena,Italy,OSTERIA FRANCESCANA,2,2017,['OSTERIA FRANCESCANA']
+2,El Celler de Can Roca,Girona,Spain,EL CELLER DE CAN ROCA,3,2017,"['EL CELLER DE CAN ROCA', 'EL CELLAR DE CAN ROCA', 'EL CELLAR DR CAN ROCA']"
+3,Mirazur,Menton,France,MIRAZUR,4,2017,['MIRAZUR']
+4,Central,Lima,Peru,CENTRAL,5,2017,['CENTRAL']
+5,Asador Etxebarri,Axpe,Spain,ASADOR ETXEBARRI,6,2017,"['ASADOR ETXEBARRI', 'ASADOR EXTEBARRI']"
+6,Gaggan,Bangkok,Thailand,GAGGAN,7,2017,['GAGGAN']
+7,Maido,Lima,Peru,MAIDO,8,2017,['MAIDO']
+8,Mugaritz,San Sebastian,Spain,MUGARITZ,9,2017,"['MUGARITZ', 'MUGARTIZ']"
+9,Steirereck,Vienna,Austria,STEIRERECK,10,2017,['STEIRERECK']
+10,Blue Hill at Stone Barns,Pocantico Hills,United States,BLUE HILL AT STONE BARNS,11,2017,['BLUE HILL AT STONE BARNS']
+11,Arpège,Paris,France,L'ARPEGE,12,2017,"[""L'ARPEGE""]"
+12,Alain Ducasse au Plaza Athénée,Paris,France,ALAIN DUCASSE AU PLAZA ATHENEE,13,2017,['ALAIN DUCASSE AU PLAZA ATHENEE']
+13,Restaurant André,Singapore,Singapore,RESTAURANT ANDRE,14,2017,"['RESTAURANT ANDRE', 'RESTAURANT FRANTZEN']"
+14,Piazza Duomo,Alba,Italy,PIAZZA DUOMO,15,2017,['PIAZZA DUOMO']
+15,D.O.M.,Sao Paulo,Brazil,D.O.M.,16,2017,"['D.O.M.', 'D.O.M']"
+16,Le Bernardin,New York,United States,LE BERNARDIN,17,2017,['LE BERNARDIN']
+17,Narisawa,Tokyo,Japan,NARISAWA,18,2017,['NARISAWA']
+18,Geranium,Copenhagen,Denmark,GERANIUM,19,2017,['GERANIUM']
+19,Pujol,Mexico City,Mexico,PUJOL,20,2017,['PUJOL']
+20,Alinea,Chicago,United States,ALINEA,21,2017,['ALINEA']
+21,Quintonil,Mexico City,Mexico,QUINTONIL,22,2017,['QUINTONIL']
+22,White Rabbit,Moscow,Russia,WHITE RABBIT,23,2017,['WHITE RABBIT']
+23,Amber,Hong Kong,China,AMBER,24,2017,['AMBER']
+24,Tickets,Barcelona,Spain,TICKETS,25,2017,['TICKETS']
+25,The Clove Club,London,United Kingdom,THE CLOVE CLUB,26,2017,['THE CLOVE CLUB']
+26,The Ledbury,London,United Kingdom,THE LEDBURY,27,2017,['THE LEDBURY']
+27,Nahm,Bangkok,Thailand,NAHM,28,2017,['NAHM']
+28,Le Calandre,Rubano,Italy,LE CALANDRE,29,2017,"['LE CALANDRE', 'LA CALANDRE']"
+29,Arzak,San Sebastian,Spain,ARZAK,30,2017,['ARZAK']
+30,Alléno Paris au Pavillon Ledoyen,Paris,France,ALLENO PARIS AU PAVILLON LEDOYEN,31,2017,['ALLENO PARIS AU PAVILLON LEDOYEN']
+31,Attica,Melbourne,Australia,ATTICA,32,2017,['ATTICA']
+32,Astrid y Gastón,Lima,Peru,ASTRID Y GASTON,33,2017,['ASTRID Y GASTON']
+33,De Librije,Zwolle,Netherlands,DE LIBRIJE,34,2017,"['DE LIBRIJE', 'DE LIBRIJIE']"
+34,Septime,Paris,France,SEPTIME,35,2017,['SEPTIME']
+35,Dinner by Heston Blumenthal,London,United Kingdom,DINNER BY HESTON BLUMENTHAL,36,2017,['DINNER BY HESTON BLUMENTHAL']
+36,Saison,San Francisco,United States,SAISON,37,2017,['SAISON']
+37,Azurmendi,Larrabettzu,Spain,AZURMENDI,38,2017,['AZURMENDI']
+38,Relae,Copenhagen,Denmark,RELAE,39,2017,"['RELAE', 'REALE']"
+39,Cosme,New York,United States,COSME,40,2017,['COSME']
+40,Ultraviolet by Paul Pairet,Shanghai,China,ULTRAVIOLET BY PAUL PAIRET,41,2017,['ULTRAVIOLET BY PAUL PAIRET']
+41,Boragó,Santiago,Chile,BORAGO,42,2017,['BORAGO']
+42,Reale,Castel Di Sangro,Italy,REALE,43,2017,"['REALE', 'RELAE']"
+43,Brae,Birregurra,Austria,BRAE,44,2017,['BRAE']
+44,Den,Tokyo,Japan,DEN,45,2017,['DEN']
+45,L'Astrance,Paris,France,L'ASTRANCE,46,2017,"[""L'ASTRANCE""]"
+46,Vendôme,Bergisch Gladbach,Germany,VENDOME,47,2017,['VENDOME']
+47,Restaurant Tim Raue,Berlin,Germany,RESTAURANT TIM RAUE,48,2017,['RESTAURANT TIM RAUE']
+48,Tegui,Buenos Aires,Argentina,TEGUI,49,2017,['TEGUI']
+49,Hof Van Cleve,Kruishoutem,Belgium,HOF VAN CLEVE,50,2017,['HOF VAN CLEVE']
+0,Osteria Francescana,Modena,Italy,OSTERIA FRANCESCANA,1,2018,['OSTERIA FRANCESCANA']
+1,El Celler de Can Roca,Girona,Spain,EL CELLER DE CAN ROCA,2,2018,"['EL CELLER DE CAN ROCA', 'EL CELLAR DE CAN ROCA', 'EL CELLAR DR CAN ROCA']"
+2,Mirazur,Menton,France,MIRAZUR,3,2018,['MIRAZUR']
+3,Eleven Madison Park,New York,United States,ELEVEN MADISON PARK,4,2018,['ELEVEN MADISON PARK']
+4,Gaggan,Bangkok,Thailand,GAGGAN,5,2018,['GAGGAN']
+5,Central,Lima,Peru,CENTRAL,6,2018,['CENTRAL']
+6,Maido,Lima,Peru,MAIDO,7,2018,['MAIDO']
+7,Arpège,Paris,France,L'ARPEGE,8,2018,"[""L'ARPEGE""]"
+8,Mugaritz,San Sebastian,Spain,MUGARITZ,9,2018,"['MUGARITZ', 'MUGARTIZ']"
+9,Asador Etxebarri,Axpe,Spain,ASADOR ETXEBARRI,10,2018,"['ASADOR ETXEBARRI', 'ASADOR EXTEBARRI']"
+10,Quintonil,Mexico City,Mexico,QUINTONIL,11,2018,['QUINTONIL']
+11,Blue Hill at Stone Barns,Pocantico Hills,United States,BLUE HILL AT STONE BARNS,12,2018,['BLUE HILL AT STONE BARNS']
+12,Pujol,Mexico City,Mexico,PUJOL,13,2018,['PUJOL']
+13,Steirereck,Vienna,Austria,STEIRERECK,14,2018,['STEIRERECK']
+14,White Rabbit,Moscow,Russia,WHITE RABBIT,15,2018,['WHITE RABBIT']
+15,Piazza Duomo,Alba,Italy,PIAZZA DUOMO,16,2018,['PIAZZA DUOMO']
+16,Den,Tokyo,Japan,DEN,17,2018,['DEN']
+17,Disfrutar,Barcelona,Spain,DISFRUTAR,18,2018,['DISFRUTAR']
+18,Geranium,Copenhagen,Denmark,GERANIUM,19,2018,['GERANIUM']
+19,Attica,Melbourne,Australia,ATTICA,20,2018,['ATTICA']
+20,Alain Ducasse au Plaza Athénée,Paris,France,ALAIN DUCASSE AU PLAZA ATHENEE,21,2018,['ALAIN DUCASSE AU PLAZA ATHENEE']
+21,Narisawa,Tokyo,Japan,NARISAWA,22,2018,['NARISAWA']
+22,Le Calandre,Rubano,Italy,LE CALANDRE,23,2018,"['LE CALANDRE', 'LA CALANDRE']"
+23,Ultraviolet by Paul Pairet,Shanghai,China,ULTRAVIOLET BY PAUL PAIRET,24,2018,['ULTRAVIOLET BY PAUL PAIRET']
+24,Cosme,New York,United States,COSME,25,2018,['COSME']
+25,Le Bernardin,New York,United States,LE BERNARDIN,26,2018,['LE BERNARDIN']
+26,Boragó,Santiago,Chile,BORAGO,27,2018,['BORAGO']
+27,Odette,Singapore,Singapore,ODETTE,28,2018,['ODETTE']
+28,Alléno Paris au Pavillon Ledoyen,Paris,France,ALLENO PARIS AU PAVILLON LEDOYEN,29,2018,['ALLENO PARIS AU PAVILLON LEDOYEN']
+29,D.O.M.,São Paulo,Brazil,D.O.M.,30,2018,"['D.O.M.', 'D.O.M']"
+30,Arzak,San Sebastian,Spain,ARZAK,31,2018,['ARZAK']
+31,Tickets,Barcelona,Spain,TICKETS,32,2018,['TICKETS']
+32,The Clove Club,London,United Kingdom,THE CLOVE CLUB,33,2018,['THE CLOVE CLUB']
+33,Alinea,Chicago,United States,ALINEA,34,2018,['ALINEA']
+34,Maaemo,Oslo,Norway,MAAEMO,35,2018,['MAAEMO']
+35,Reale,Castel di Sangro,Italy,REALE,36,2018,"['REALE', 'RELAE']"
+36,Restaurant Tim Raue,Berlin,Germany,RESTAURANT TIM RAUE,37,2018,['RESTAURANT TIM RAUE']
+37,Lyle's,London,United Kingdom,LYLE'S,38,2018,"[""LYLE'S""]"
+38,Astrid y Gastón,Lima,Peru,ASTRID Y GASTON,39,2018,['ASTRID Y GASTON']
+39,Septime,Paris,France,SEPTIME,40,2018,['SEPTIME']
+40,Nihonryori RyuGin,Tokyo,Japan,NIHONRYORI RYUGIN,41,2018,"['NIHONRYORI RYUGIN', 'NIHONRYORIA RYUGIN', 'NIHNRYORI RYUGIN']"
+41,The Ledbury,London,United Kingdom,THE LEDBURY,42,2018,['THE LEDBURY']
+42,Azurmendi,Larrabetzu,Spain,AZURMENDI,43,2018,['AZURMENDI']
+43,Mikla,Istanbul,Turkey,MIKLA,44,2018,['MIKLA']
+44,Dinner by Heston Blumenthal,London,United Kingdom,DINNER BY HESTON BLUMENTHAL,45,2018,['DINNER BY HESTON BLUMENTHAL']
+45,Saison,San Francisco,United States,SAISON,46,2018,['SAISON']
+46,Schloss Schauenstein,Fürstenau,Switzerland,SCHLOSS SCHAUENSTEIN,47,2018,['SCHLOSS SCHAUENSTEIN']
+47,Hiša Franko,Kobarid,Slovenia,HISA FRANKO,48,2018,['HISA FRANKO']
+48,Nahm,Bangkok,Thailand,NAHM,49,2018,['NAHM']
+49,The Test Kitchen,Cape Town,South Africa,THE TEST KITCHEN,50,2018,['THE TEST KITCHEN']
+50,De Librije,Zwolle,Netherlands,DE LIBRIJE,51,2018,"['DE LIBRIJE', 'DE LIBRIJIE']"
+51,L'Astrance,Paris,France,L'ASTRANCE,52,2018,"[""L'ASTRANCE""]"
+52,Benu,San Francisco,United States,BENU,53,2018,['BENU']
+53,Sühring,Bangkok,Thailand,SUHRING,54,2018,['SUHRING']
+54,Don Julio,Buenos Aires,Argentina,DON JULIO,55,2018,['DON JULIO']
+55,Amber,Hong Kong,China,AMBER,56,2018,['AMBER']
+56,Nerua,Bilbao,Spain,NERUA,57,2018,['NERUA']
+57,Brae,Birregurra,Australia,BRAE,58,2018,['BRAE']
+58,Florilège,Tokyo,Japan,FLORILEGE,59,2018,['FLORILEGE']
+59,Tegui,Buenos Aires,Argentina,TEGUI,60,2018,['TEGUI']
+60,Burnt Ends,Singapore,Singapore,BURNT ENDS,61,2018,['BURNT ENDS']
+61,Momofuku Ko,New York,United States,MOMOFUKU KO,62,2018,['MOMOFUKU KO']
+62,Hof Van Cleve,Kruishoutem,Belgium,HOF VAN CLEVE,63,2018,['HOF VAN CLEVE']
+63,Sud777,Mexico City,Mexico,SUD777,64,2018,['SUD777']
+64,Frantzén,Stockholm,Sweden,FRANTZEN,65,2018,['FRANTZEN']
+65,Vendôme,Bergisch Gladbach,Germany,VENDOME,66,2018,['VENDOME']
+66,Fäviken,Järpen,Sweden,FAVIKEN,67,2018,['FAVIKEN']
+67,Quique Dacosta,Denia,Spain,QUIQUE DACOSTA,68,2018,['QUIQUE DACOSTA']
+68,Chef's Table At Brooklyn Fare,New York,United States,CHEF'S TABLE AT BROOKLYN FARE,69,2018,"[""CHEF'S TABLE AT BROOKLYN FARE""]"
+69,Selfie,Moscow,Russia,SELFIE,70,2018,['SELFIE']
+70,Relae,Copenhagen,Denmark,RELAE,71,2018,"['RELAE', 'REALE']"
+71,Twins Garden,Moscow,Russia,TWINS GARDEN,72,2018,['TWINS GARDEN']
+72,Aqua,Wolfsburg,Germany,AQUA,73,2018,['AQUA']
+73,The Fat Duck,Bray,United Kingdom,THE FAT DUCK,74,2018,['THE FAT DUCK']
+74,Belcanto,Lisbon,Portugal,BELCANTO,75,2018,['BELCANTO']
+75,Martin Berasategui,Lasarte-Oria,Spain,MARTIN BERASATEGUI,76,2018,"['MARTIN BERASATEGUI', 'MARTIN BERASTEGUI', 'MARTAIN BERASATGUI']"
+76,Elkano,Getaria,Spain,ELKANO,77,2018,['ELKANO']
+77,Mingles,Seoul,Korea,MINGLES,78,2018,['MINGLES']
+78,A Casa do Porco,São Paulo,Brazil,A CASA DO PORCO,79,2018,['A CASA DO PORCO']
+79,Lung King Heen,Hong Kong,China,LUNG KING HEEN,80,2018,['LUNG KING HEEN']
+80,Per Se,New York,United States,PER SE,81,2018,['PER SE']
+81,Hedone,London,United Kingdom,HEDONE,82,2018,['HEDONE']
+82,Estela,New York,United States,ESTELA,83,2018,['ESTELA']
+83,St John,London,United Kingdom,ST JOHN,84,2018,['ST JOHN']
+84,Le Coucou,New York,United States,LE COUCOU,85,2018,['LE COUCOU']
+85,The French Laundry,Yountville,United States,THE FRENCH LAUNDRY,86,2018,['THE FRENCH LAUNDRY']
+86,Maní,São Paulo,Brazil,MANI,87,2018,['MANI']
+87,Nobelhart & Schmutzig,Berlin,Germany,NOBELHART & SCHMUTZIG,88,2018,['NOBELHART & SCHMUTZIG']
+88,The Jane,Antwerp,Belgium,THE JANE,89,2018,['THE JANE']
+89,Indian Accent,New Delhi,India,INDIAN ACCENT,90,2018,['INDIAN ACCENT']
+90,SingleThread,Healdsburg,United States,SINGLETHREAD,91,2018,['SINGLETHREAD']
+91,L'Effervescence,Tokyo,Japan,L'EFFERVESCENCE,92,2018,"[""L'EFFERVESCENCE""]"
+92,8 1/2 Otto e Mezzo Bombana,Hong Kong,China,8 1/2 OTTO E MEZZO BOMBANA,93,2018,"['8 1/2 OTTO E MEZZO BOMBANA', '81⁄2 OTTO E MEZZO BOMBANA']"
+93,Alo,Toronto,Canada,ALO,94,2018,['ALO']
+94,Enigma,Barcelona,Spain,ENIGMA,95,2018,['ENIGMA']
+95,Diverxo,Madrid,Spain,DIVERXO,96,2018,['DIVERXO']
+96,Atelier,Munich,Germany,ATELIER,97,2018,['ATELIER']
+97,108,Copenhagen,Denmark,108,98,2018,['108']
+98,Leo,Bogotá,Colombia,LEO,99,2018,['LEO']
+99,Lasai,Rio de Janeiro,Brazil,LASAI,100,2018,['LASAI']

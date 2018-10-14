@@ -1,0 +1,30 @@
+Building DAG of jobs...
+Using shell: /bin/bash
+Provided cores: 1
+Rules claiming more threads will be scaled down.
+Job counts:
+	count	jobs
+	1	all
+	1	make_graphs
+	1	make_pdf
+	3
+
+[Sun Oct 14 16:39:41 2018]
+rule make_graphs:
+    input: input/code/Analysis.R, input/raw_data/restaurant_ranking.csv
+    output: output/graphs/graph_1.png, output/graphs/graph_2.png, output/data/corr.tex
+    jobid: 2
+
+    [Sun Oct 14 16:39:43 2018]
+    Error in rule make_graphs:
+        jobid: 2
+        output: output/graphs/graph_1.png, output/graphs/graph_2.png, output/data/corr.tex
+
+RuleException:
+CalledProcessError in line 59 of /Users/luisa/Desktop/Carrer_Project/Snakefile:
+Command ' set -euo pipefail;  Rscript --no-save --no-restore --verbose input/code/Analysis.R ' returned non-zero exit status 1.
+  File "/Users/luisa/Desktop/Carrer_Project/Snakefile", line 59, in __rule_make_graphs
+  File "/anaconda3/lib/python3.6/concurrent/futures/thread.py", line 56, in run
+Shutting down, this might take some time.
+Exiting because a job execution failed. Look above for error message
+Complete log: /Users/luisa/Desktop/Carrer_Project/.snakemake/log/2018-10-14T163941.555796.snakemake.log

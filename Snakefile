@@ -1,5 +1,3 @@
-## Contributors: Chiara Aina
-## (GitHub: @chiaraina, Email: chiaraina@hotmail.it)
 
 ##############################################
 ## Misc
@@ -21,18 +19,6 @@ GRAPHS = ["graph_1", "graph_2"]
 ## Get all input filenames
 ##############################################
 
-# GRAPHS = ['accept_mean', 'f_accept_mean', 'm_accept_mean', 'offer_mean', 'f_offer_mean', 'm_offer_mean']
-
-##############################################
-## Build Rules
-##############################################
-#rule allRules:
-#    input:
-#        config['in_latex']+'report.md',
-#        'Aina_AdditionalAnalysis.pdf',
-#        expand(config['out_graphs']+"{iGraph}.jpeg", iGraph = GRAPHS),
-#        config['out_data']+'cleaned_data_all.csv',
-#        config['out_data']+'cleaned_data.csv'
 
 # all: just there to check all jobs are done
 rule all:

@@ -1,3 +1,9 @@
+requiredPackages = c('stargazer','tidyr','dplyr','stringr','lfe','ggplot2','here')
+for(p in requiredPackages){
+  if(!require(p,character.only = TRUE)) install.packages(p)
+  library(p,character.only = TRUE)
+}
+
 library(stargazer)
 library(tidyr)
 library(dplyr)
@@ -56,7 +62,7 @@ new_data <- new_data%>% mutate(g = ifelse(numeric_restaurant > 0, 1, 0 ))
 new_data <- new_data%>% group_by(country) %>% mutate(tot_restaurant = sum(g))
 new_data <- new_data%>% filter(tot_restaurant > 0, year < 2017, year > 2002)
 
-final_data <- new_data %>% group_by(country, year,arrivals) %>% summarize(num_restaurant = sum(g))
+final_data <- new_data %>% group_by(country, year, arrivals) %>% summarize(num_restaurant = sum(g))
 
 sum_data <- new_data %>% group_by(country, year) %>% mutate(num_restaurant= sum(g))
 sum_data <- sum_data %>% group_by(country) %>% summarize(mean_rest = mean(num_restaurant), mean_arr = mean(arrivals))
